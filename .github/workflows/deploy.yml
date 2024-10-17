@@ -1,0 +1,38 @@
+name: Deploy 100 days of code to GitHub Pages
+
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v2
+
+    - name: Install Node.js
+      uses: actions/setup-node@v2
+      with:
+        node-version: '16'
+
+    - name: Install dependencies
+      run: npm install
+
+    - name: Build project
+      run: CI=false npm run build
+
+      
+    - name: Configure Git user
+      run: |
+        git config --global user.email "murilo.revisaprev@gmail.com"
+        git config --global user.name "Murilo Motomatsu"
+
+    - name: Deploy to GitHub Pages
+      run: |
+        git remote set-url origin https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git
+        CI=false npm run deploy
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

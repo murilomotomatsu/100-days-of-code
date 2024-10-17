@@ -1,0 +1,83 @@
+.todo {
+    background-color: #ffeb3b;
+    width: 100%;
+    margin: 20px auto;
+    padding: 8px;
+    border-radius: 4px;
+    box-sizing: border-box;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    
+}
+
+.todo-header{
+    display: flex;
+    justify-content: space-between;
+}
+
+.todo input, .todo textarea{
+    border: none;
+    background: transparent;
+    box-sizing: border-box;
+    color: black;
+    width: 100%;
+    resize: none;
+}
+
+.todo-title {
+    font-weight: 600;
+    font-size: 1.2rem;
+}
+
+.todo-list {
+    list-style: none;
+    padding: 0;
+    font-size: 1rem;
+}
+
+.todo-item {
+    white-space: wrap;
+    display: flex;
+ 
+
+}
+
+.todo-item input {
+    width: auto; 
+
+}
+
+.todo-item textarea{
+    width: 100%;
+}
+
+.todo-textarea::-webkit-scrollbar {
+    display: none; 
+}
+
+.todo-item button{
+    margin-left: 2%;
+    background-color: red;
+    border: none;
+    border-radius: 4px;
+    font-size: 0.8rem;
+    color: black;
+}
+
+.datePicker{
+    text-align: right;
+    width: 30%;
+}
+
+.datePicker input{
+    text-align: right;
+    
+}
+
+.react-datepicker-wrapper {
+    width: 60px;
+  }
+
+.react-datepicker__day,
+.react-datepicker__week {
+margin: 0; 
+}

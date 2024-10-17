@@ -1,0 +1,38 @@
+.calendar {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(30px, 1fr));
+    gap: 10px;
+    padding: 20px;
+
+  }
+
+.day {
+    color: black;
+    background-color: #EBEBE4 ;
+
+    border: none;
+    border-radius: 5px;
+
+    text-align: center;
+    font-size: 1rem;
+    padding-top: 4px;
+    line-height: 20px; 
+
+    cursor: not-allowed;
+
+    box-sizing: border-box;
+    width: 30px; 
+    height: 30px; 
+
+    font-weight: 600;
+}
+
+.day.completed {
+    background-color: #4caf50;
+    color: white;
+    cursor: pointer;
+    box-shadow: 0 0 10px #4caf50;
+
+}
+
+
