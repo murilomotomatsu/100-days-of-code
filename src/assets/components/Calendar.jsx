@@ -9,7 +9,7 @@ const Calendar100Days = () => {
 
   /* Links from github  */
   const projectLinks = {
-    1: "https://github.com/murilomotomatsu/100-days-of-code",
+    1: "https://github.com/murilomotomatsu/100-days-of-code/commit/d0660148bd8201b996ba759db53c06cce694cc13",
   };
 
   /* Open project link */
