@@ -1,0 +1,28 @@
+.footeryt {
+    background: #0f0f0f;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    padding: 8px;
+    box-sizing: border-box;
+    height: 50px;
+    justify-content: space-around;
+}
+
+.footeryt-item a{
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    color: #f1f1f1;
+    font-size: 0.6rem;
+    filter: brightness(0) saturate(100%) invert(100%) sepia(3%) saturate(5%) hue-rotate(10deg) brightness(115%) contrast(89%);
+}
+
+.footeryt-item img{
+    width: 24px;
+    margin: auto;
+}
+
+
