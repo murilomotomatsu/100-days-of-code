@@ -48,3 +48,20 @@ Today I
 
 
 **Link to work:** [Day2](https://github.com/murilomotomatsu/100-days-of-code/commit/9b59886bff1ce9e05de54a7a394c74d49790784d)
+
+
+### Day 3: October 20, 2024
+#####
+
+**Today's Progress**: 
+
+Day 3 of #100DaysOfCode 🚀
+
+Today I
+
+➕ Completed the video list component
+➕ Improved the responsiveness of the video list grids
+
+
+
+**Link to work:** [Day3]()

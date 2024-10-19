@@ -1,7 +1,6 @@
 .video-descriptionarea {
     display: flex;
     align-items: center;
-    margin: 5px 0;
     gap: 10px;
 }
 
@@ -22,12 +21,25 @@
     border-radius: 50px;
 }
 
-.video-item iframe{
+.video-item iframe, .thumb{
     width: 100%;
-    height: 100%;
+    height: 200px;
     border-radius: 15px;
 }
 
 .video-list{
     padding: 20px;
+    padding-bottom: 50px;
+
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+    grid-auto-rows: minmax(200px, 1fr);
+    gap: 20px
+}
+
+@media (max-width: 768px){
+
+    .video-list {
+        grid-template-columns: repeat(auto-fill, minmax(100%, 100%));
+    }
 }

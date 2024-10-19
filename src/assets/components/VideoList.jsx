@@ -1,25 +1,68 @@
 import './VideoList.css'
+import Logo from '../images/logo.webp'
 
 export default function VideoList() {
+    const videosIds = [
+        'Z3RAcq_goZI',
+        'b5d1uwiPehw',
+    ];
 
-    return(
+    const videos = Array.from({ length: 10 }, (_, i) => {
+
+        const youtubeId = videosIds[i] || null;
+        const releaseDate = new Date(2024, 9, 18 + i).toLocaleDateString('en-GB', { day: '2-digit', month: 'short' });
+
+        return {
+            id: i,
+            title: `Day ${i + 1}`,
+            description: youtubeId ?
+                `My progress of day ${i + 1} in 100 days of code`
+                :
+                `Wait for ${releaseDate}`,
+            views: youtubeId ?
+                `${Math.floor(Math.random() * 1000) + 500} M views`
+                :
+                '0 views',
+            youtubeId,
+            releaseDate,
+        }
+    })
+
+
+    return (
 
         <div className="video-list">
-            <div className="video-item">
-                <iframe src="https://www.youtube.com/embed/Z3RAcq_goZI" frameborder="0" />
-            
-            </div>
-            <div className="video-descriptionarea">
-                <img 
-                    src="https://via.placeholder.com/40x40.png?text=Logo" 
-                    alt="" 
-                    className="video-logo" 
-                />
-                <div>
-                    <p className="video-title">Title</p>
-                    <p className="video-description">Description</p>
+            {videos.map((video) => (
+                <div className="video-item">
+                    {video.youtubeId ? (
+                        <iframe
+                            src={`https://www.youtube.com/embed/${video.youtubeId}?enablejsapi=1`}
+                            frameborder="0"
+                            allowFullScreen
+                        />
+
+                    ) :
+                        (
+                            <img 
+                                className='thumb'
+                                src={`https://placeholder.pics/svg/300/DEDEDE/555555/${encodeURIComponent(video.releaseDate)}`}
+                            />
+                        )}
+
+                    <div className="video-descriptionarea">
+                        <img
+                            src={Logo}
+                            alt=""
+                            className="video-logo"
+                        />
+                        <div>
+                            <p className="video-title">{video.title}</p>
+                            <p className="video-description">{video.description} - {video.views}</p>
+                        </div>
+                    </div>
                 </div>
-            </div>
+            ))}
+
         </div>
     )
 }

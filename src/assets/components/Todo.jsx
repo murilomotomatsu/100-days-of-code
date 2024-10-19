@@ -160,7 +160,7 @@ export default function Todo ({ editable }) {
                     value={newTodo}
                     onKeyDown={addNewTodo}
                     onChange={(e) => setNewTodo(e.target.value)}
-                    placeholder="Tap to add new to-do"
+                    placeholder={editable ? "Tap to add new to-do" : "Tap to see commit changes"}
                     disabled={!editable}
                 />
 

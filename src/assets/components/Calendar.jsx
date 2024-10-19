@@ -5,12 +5,13 @@ import './Calendar.css';
 
 /* Calendar component */
 const Calendar100Days = () => {
-  const [completedDays, setCompletedDays] = useState([2]);
+  const [completedDays, setCompletedDays] = useState([3]);
 
   /* Links from github  */
   const projectLinks = {
     1: "https://github.com/murilomotomatsu/100-days-of-code/commit/d0660148bd8201b996ba759db53c06cce694cc13",
     2: "https://github.com/murilomotomatsu/100-days-of-code/commit/9b59886bff1ce9e05de54a7a394c74d49790784d",
+    3: ""
   };
 
   /* Open project link */
