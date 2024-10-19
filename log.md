@@ -47,4 +47,4 @@ Today I
 
 
 
-**Link to work:** [Day2](https://github.com/murilomotomatsu/100-days-of-code/commit/d0660148bd8201b996ba759db53c06cce694cc13)
+**Link to work:** [Day2](https://github.com/murilomotomatsu/100-days-of-code/commit/9b59886bff1ce9e05de54a7a394c74d49790784d)
