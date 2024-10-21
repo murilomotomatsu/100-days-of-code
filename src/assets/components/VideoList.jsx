@@ -1,11 +1,8 @@
 import './VideoList.css'
 import Logo from '../images/logo.webp'
+import { videosIds } from '../../constants/videosIds';
 
 export default function VideoList() {
-    const videosIds = [
-        'Z3RAcq_goZI',
-        'b5d1uwiPehw',
-    ];
 
     const videos = Array.from({ length: 10 }, (_, i) => {
 

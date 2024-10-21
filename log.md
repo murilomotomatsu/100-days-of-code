@@ -65,3 +65,21 @@ Today I
 
 
 **Link to work:** [Day3](https://github.com/murilomotomatsu/100-days-of-code/commit/e13eb5c03d0ca501ad0e03c65fecb97edcc9644e)
+
+
+### Day 4: October 21, 2024
+#####
+
+**Today's Progress**: 
+
+Day 4 of #100DaysOfCode 🚀
+
+Today I
+
+➕ Started using shared constants to streamline the codebase 
+➕ Added the video player component, inspired by shorts-style youtube videos 
+➕ Updated the footerYT component to enable navigation to the video pages
+
+
+
+**Link to work:** [Day4]()

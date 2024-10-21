@@ -36,3 +36,14 @@ Today I
 ➕ Completed the video list component
 ➕ Improved the responsiveness of the video list grids
 
+
+### R1D4
+
+Day 4 of #100DaysOfCode 🚀
+
+Today I
+
+➕ Started using shared constants to streamline the codebase 
+➕ Added the video player component, inspired by shorts-style youtube videos 
+➕ Updated the footerYT component to enable navigation to the video pages
+
