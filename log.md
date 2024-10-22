@@ -83,3 +83,20 @@ Today I
 
 
 **Link to work:** [Day4](https://github.com/murilomotomatsu/100-days-of-code/commit/e770e380fe81e1948e605b99b1d9d30d1e04b81a)
+
+
+
+### Day 5: October 22, 2024
+#####
+
+**Today's Progress**: 
+
+Day 5 of #100DaysOfCode 🚀
+
+Today I
+
+➕ Created the "About Me" page to enhance user engagement
+➕ Integrated the "About Me" page into the video tab for better accessibility
+➕ Added the "About Me" page link to the main navigation for improved visibility
+
+**Link to work:** [Day5]()

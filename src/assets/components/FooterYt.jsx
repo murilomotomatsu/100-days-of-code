@@ -11,7 +11,7 @@ export default function FooterNav({ onNavClick }) {
         { text: 'Home', icon: HomeLogo, link: '/100-days-of-code/' },
         { text: 'Shorts', icon: Shorts, link: '#', view: 'VideoPlayer' },
         { text: 'Subscribed', icon: Subs, link: '#', view: 'VideoList' },
-        { text: 'You', icon: Logo, link: '#' },
+        { text: 'You', icon: Logo, link: '#', view: 'About'},
     ]
 
     return (

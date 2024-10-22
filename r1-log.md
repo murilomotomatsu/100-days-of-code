@@ -47,3 +47,17 @@ Today I
 ➕ Added the video player component, inspired by shorts-style youtube videos 
 ➕ Updated the footerYT component to enable navigation to the video pages
 
+R1D5
+Day 5 of #100DaysOfCode 🚀
+
+Today I
+
+➕ Created the "About Me" page to enhance user engagement
+➕ Integrated the "About Me" page into the video tab for better accessibility
+➕ Added the "About Me" page link to the main navigation for improved visibility
+
+
+
+
+
+
