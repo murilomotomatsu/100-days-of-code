@@ -100,3 +100,20 @@ Today I
 ➕ Added the "About Me" page link to the main navigation for improved visibility
 
 **Link to work:** [Day5](https://github.com/murilomotomatsu/100-days-of-code/commit/574ee308dce4ad93bc2df51fe357ae1e0934a2d0)
+
+### Day 6: October 23, 2024
+#####
+
+**Today's Progress**: 
+
+Day 6 of #100DaysOfCode 🚀
+
+Today I
+
+➕ Implemented a chat component using GPT Chat to enhance user interaction
+➕ Created the src/services directory to manage service calls efficiently
+➕ Made a request to my own API hosted on Render for seamless data integration
+
+
+**Link to work:** [Day6]()
+

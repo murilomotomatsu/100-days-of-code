@@ -11,6 +11,7 @@ export default function Navbar() {
                 <li><Link to="/">Home</Link></li>
                 <li><Link to="/videos">Videos</Link></li>
                 <li><Link to="/about-me">About</Link></li>
+                <li><Link to="/chat">Chat GPT</Link></li>
             </ul>
         </nav>
     )

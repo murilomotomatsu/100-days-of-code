@@ -1,0 +1,47 @@
+.chat-container {
+    display: flex;
+    flex-direction: column;
+    height: 80vh;
+    width: 100%;
+    background-color: #f9f9f9;
+    box-sizing: border-box;
+    border-radius: 15px;
+    color: black;
+    padding: 15px;
+}
+
+.messages-container {
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+    height: 100%;
+    overflow: auto;
+    padding: 10px;
+}
+
+.message {
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.message.user {
+    background-color: #daf8e3;
+    align-self: flex-end;
+}
+
+.message.gpt {
+    background-color: #f0f0f0;
+    align-self: flex-start;
+}
+
+.input-container {
+    display: flex;
+    gap: 5px;
+}
+
+.input-container input{
+    background-color: transparent;
+    border: none;
+    color: black;
+
+}

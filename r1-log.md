@@ -56,6 +56,21 @@ Today I
 ➕ Integrated the "About Me" page into the video tab for better accessibility
 ➕ Added the "About Me" page link to the main navigation for improved visibility
 
+R1D6
+Day 6 of #100DaysOfCode 🚀
+
+Today I
+
+➕ Implemented a chat component using GPT Chat to enhance user interaction
+➕ Created the src/services directory to manage service calls efficiently
+➕ Made a request to my own API hosted on Render for seamless data integration
+
+
+
+
+
+
+
 
 
 
