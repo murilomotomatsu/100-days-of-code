@@ -115,5 +115,5 @@ Today I
 ➕ Made a request to my own API hosted on Render for seamless data integration
 
 
-**Link to work:** [Day6]()
+**Link to work:** [Day6](https://github.com/murilomotomatsu/100-days-of-code/commit/c732bf4748d4a5c2396f948b1faac0bff4485f9d)
 
