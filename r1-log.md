@@ -66,6 +66,14 @@ Today I
 ➕ Made a request to my own API hosted on Render for seamless data integration
 
 
+R1D7
+Day 7 of #100DaysOfCode 🚀
+
+Today I
+
+➕ Created my api-gpt 
+➕ Publish on render
+
 
 
 

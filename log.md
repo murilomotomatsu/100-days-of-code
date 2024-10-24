@@ -117,3 +117,18 @@ Today I
 
 **Link to work:** [Day6](https://github.com/murilomotomatsu/100-days-of-code/commit/c732bf4748d4a5c2396f948b1faac0bff4485f9d)
 
+
+### Day 7: October 24, 2024
+#####
+
+**Today's Progress**: 
+
+Day 7 of #100DaysOfCode 🚀
+
+Today I
+
+➕ Created my api-gpt 
+➕ Publish on render
+
+**Link to work:** [Day6](https://github.com/murilomotomatsu/100-days-of-code/commit/c732bf4748d4a5c2396f948b1faac0bff4485f9d)
+
