@@ -130,5 +130,5 @@ Today I
 ➕ Created my api-gpt 
 ➕ Publish on render
 
-**Link to work:** [Day6](https://github.com/murilomotomatsu/100-days-of-code/commit/c732bf4748d4a5c2396f948b1faac0bff4485f9d)
+**Link to work:** [Day7](https://github.com/murilomotomatsu/100-days-of-code/commit/d895b7765697740028d5bd7eaab4f28176893324)
 
