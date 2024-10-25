@@ -6,5 +6,5 @@ export const projectLinks = {
     5: "https://github.com/murilomotomatsu/100-days-of-code/commit/574ee308dce4ad93bc2df51fe357ae1e0934a2d0",
     6: "https://github.com/murilomotomatsu/100-days-of-code/commit/c732bf4748d4a5c2396f948b1faac0bff4485f9d",
     7: "https://github.com/murilomotomatsu/100-days-of-code/commit/d895b7765697740028d5bd7eaab4f28176893324",
-    8: "",
+    8: "https://github.com/murilomotomatsu/100-days-of-code/commit/2c275bf29a493592d82c489c4a1c9ce6b318f0fe",
 };

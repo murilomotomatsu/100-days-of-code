@@ -144,5 +144,5 @@ Today I
 ➕ Created my games page
 ➕ Implement a quiz game!
 
-**Link to work:** [Day8]()
+**Link to work:** [Day8](https://github.com/murilomotomatsu/100-days-of-code/commit/2c275bf29a493592d82c489c4a1c9ce6b318f0fe)
 
