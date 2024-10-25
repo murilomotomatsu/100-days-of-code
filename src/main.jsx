@@ -6,6 +6,7 @@ import Videos from './assets/pages/Videos'
 import './index.css'
 import AboutPage from './assets/pages/About-me'
 import Chat from './assets/pages/Chat'
+import Games from './assets/pages/Games'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
@@ -15,6 +16,7 @@ createRoot(document.getElementById('root')).render(
         <Route path='/videos' element={<Videos/>} />
         <Route path='/about-me' element={<AboutPage/>} />
         <Route path='/chat' element={<Chat/>} />
+        <Route path='/games' element={<Games/>} />
       </Routes>    
     </BrowserRouter>
   </StrictMode>,

@@ -47,7 +47,7 @@ Today I
 ➕ Added the video player component, inspired by shorts-style youtube videos 
 ➕ Updated the footerYT component to enable navigation to the video pages
 
-R1D5
+### R1D5
 Day 5 of #100DaysOfCode 🚀
 
 Today I
@@ -56,7 +56,7 @@ Today I
 ➕ Integrated the "About Me" page into the video tab for better accessibility
 ➕ Added the "About Me" page link to the main navigation for improved visibility
 
-R1D6
+### R1D6
 Day 6 of #100DaysOfCode 🚀
 
 Today I
@@ -66,13 +66,21 @@ Today I
 ➕ Made a request to my own API hosted on Render for seamless data integration
 
 
-R1D7
+### R1D7
 Day 7 of #100DaysOfCode 🚀
 
 Today I
 
 ➕ Created my api-gpt 
 ➕ Publish on render
+
+### R1D8
+Day 8 of #100DaysOfCode 🚀
+
+Today I
+
+➕ Created my games page
+➕ Implement a quiz game!
 
 
 

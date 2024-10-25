@@ -132,3 +132,17 @@ Today I
 
 **Link to work:** [Day7](https://github.com/murilomotomatsu/100-days-of-code/commit/d895b7765697740028d5bd7eaab4f28176893324)
 
+### Day 8: October 25, 2024
+#####
+
+**Today's Progress**: 
+
+Day 8 of #100DaysOfCode 🚀
+
+Today I
+
+➕ Created my games page
+➕ Implement a quiz game!
+
+**Link to work:** [Day8]()
+
