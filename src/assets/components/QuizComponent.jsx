@@ -84,7 +84,7 @@ export default function QuizGame() {
                         )}
                     </div>
                 ))}
-                <button onClick={() => window.location.reload()}>Restart Quiz</button>
+                <button className='restart-button' onClick={() => window.location.reload()}>Restart Quiz</button>
             </div>
 
         )

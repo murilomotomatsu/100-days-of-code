@@ -146,3 +146,16 @@ Today I
 
 **Link to work:** [Day8](https://github.com/murilomotomatsu/100-days-of-code/commit/2c275bf29a493592d82c489c4a1c9ce6b318f0fe)
 
+### Day 9: October 26, 2024
+#####
+
+**Today's Progress**: 
+
+Day 8 of #100DaysOfCode 🚀
+
+Today I
+
+➕ Aplicated some animated css
+
+**Link to work:** [Day9]()
+
