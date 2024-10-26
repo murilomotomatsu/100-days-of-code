@@ -151,11 +151,11 @@ Today I
 
 **Today's Progress**: 
 
-Day 8 of #100DaysOfCode 🚀
+Day 9 of #100DaysOfCode 🚀
 
 Today I
 
 ➕ Aplicated some animated css
 
-**Link to work:** [Day9]()
+**Link to work:** [Day9](https://github.com/murilomotomatsu/100-days-of-code/commit/c45ae979f6cebb972966e7c06b37a4b2cf9677d9)
 
