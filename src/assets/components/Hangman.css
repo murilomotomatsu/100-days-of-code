@@ -1,0 +1,13 @@
+.hangman-container {    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.word {
+    font-size: 2rem;
+    display: flex;
+    gap: 10px;
+}
+

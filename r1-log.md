@@ -89,6 +89,16 @@ Today I
 
 ➕ Aplicated some animated css
 
+### R1D10
+Day 10 of #100DaysOfCode 🚀
+
+Today I
+
+➕ Created the NavBar for the games tab!
+➕ Developed the Hangman game with full functionality
+
+
+
 
 
 

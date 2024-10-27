@@ -24,3 +24,10 @@
     margin: 0 1rem;
     font-weight: 600;
 }
+
+.navbar button {
+    font-size: 1.2rem;
+    background: transparent;
+    border: none;
+    margin: 0 1rem;
+}

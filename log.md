@@ -159,3 +159,17 @@ Today I
 
 **Link to work:** [Day9](https://github.com/murilomotomatsu/100-days-of-code/commit/c45ae979f6cebb972966e7c06b37a4b2cf9677d9)
 
+### Day 10: October 27, 2024
+#####
+
+**Today's Progress**: 
+
+Day 10 of #100DaysOfCode 🚀
+
+Today I
+
+➕ Created the NavBar for the games tab!
+➕ Developed the Hangman game with full functionality
+
+**Link to work:** [Day10]()
+
