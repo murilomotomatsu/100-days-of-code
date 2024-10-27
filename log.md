@@ -171,5 +171,5 @@ Today I
 ➕ Created the NavBar for the games tab!
 ➕ Developed the Hangman game with full functionality
 
-**Link to work:** [Day10]()
+**Link to work:** [Day10](https://github.com/murilomotomatsu/100-days-of-code/commit/3f66badf265e2d17e1d2df07f15d76f79c0ba18a)
 
