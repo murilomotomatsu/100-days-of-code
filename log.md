@@ -173,3 +173,16 @@ Today I
 
 **Link to work:** [Day10](https://github.com/murilomotomatsu/100-days-of-code/commit/3f66badf265e2d17e1d2df07f15d76f79c0ba18a)
 
+### Day 11: October 28, 2024
+#####
+
+**Today's Progress**: 
+
+Day 11 of #100DaysOfCode 🚀
+
+Today I
+
+➕ Basic styling to enhance the look and make the game more enjoyable to interact with.
+
+**Link to work:** [Day11]()
+

@@ -1,22 +1,35 @@
-import { useState } from "react"
+import { useEffect, useState } from "react"
 import './Hangman.css'
 
 export default function Hangman() {
     const [word, setWord] = useState('HANGMAN');
     const [remainingAttempts, setRemainingAttempts] = useState('6')
     const [attemptedLetters, setAttemptedLetters] = useState([]);
+    const [isLoading, setIsLoading] = useState(true);
     const alphabet = 'ABCDEFGHIJKLMNOPQRSTUVXWYZ';
+
+    useEffect(() => {
+        newGame();
+    }, [])
 
     const selectLetter = (letter) => {
         setAttemptedLetters((prev) => [...prev, letter]);
         if (!word.includes(letter)) {
             setRemainingAttempts((prev) => prev - 1);
         }
+    };
+
+    const newGame = async () => {
+        setIsLoading(true)
+        const data = await (await fetch('https://api.dicionario-aberto.net/random')).json();
+        setWord(data.word.normalize('NFD').replace(/[\u0300-\u036f]/g, '').toUpperCase());
+        setIsLoading(false)
     }
 
     const resetGame = () => {
         setRemainingAttempts(6);
         setAttemptedLetters([]);
+        newGame();
     };
 
     if (remainingAttempts <= 0) {
@@ -39,6 +52,14 @@ export default function Hangman() {
                 <h1>You WON!</h1>
                 <h3>The word is {word}</h3>
                 <button onClick={resetGame}>Play Again</button>
+            </div>
+        )
+    }
+
+    if (isLoading) {
+        return (
+            <div className="hangman-container">
+                <h1>Loading Game...</h1>
             </div>
         )
     }

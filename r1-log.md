@@ -98,7 +98,12 @@ Today I
 ➕ Developed the Hangman game with full functionality
 
 
+### R1D11
+Day 11 of #100DaysOfCode 🚀
 
+Today I
+
+➕ Basic styling to enhance the look and make the game more enjoyable to interact with.
 
 
 

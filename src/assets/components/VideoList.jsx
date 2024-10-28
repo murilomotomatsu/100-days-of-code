@@ -4,7 +4,7 @@ import { videosIds } from '../../constants/videosIds';
 
 export default function VideoList() {
 
-    const videos = Array.from({ length: 10 }, (_, i) => {
+    const videos = Array.from({ length: 20 }, (_, i) => {
 
         const youtubeId = videosIds[i] || null;
         const releaseDate = new Date(2024, 9, 18 + i).toLocaleDateString('en-GB', { day: '2-digit', month: 'short' });
