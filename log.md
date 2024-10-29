@@ -186,3 +186,17 @@ Today I
 
 **Link to work:** [Day11](https://github.com/murilomotomatsu/100-days-of-code/commit/94d8214857269a346004c7717a14ca24e2842b73)
 
+
+### Day 12: October 29, 2024
+#####
+
+**Today's Progress**: 
+
+Day 12 of #100DaysOfCode 🚀
+
+Today I
+
+➕ Created Memory Game 
+
+**Link to work:** [Day12]()
+

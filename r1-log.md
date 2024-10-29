@@ -105,13 +105,9 @@ Today I
 
 ➕ Basic styling to enhance the look and make the game more enjoyable to interact with.
 
+### R1D12
+Day 12 of #100DaysOfCode 🚀
 
+Today I
 
-
-
-
-
-
-
-
-
+➕ Created Memory Game 

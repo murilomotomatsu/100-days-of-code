@@ -3,6 +3,7 @@ import GamesNavBar from "../components/GamesNavBar";
 import Navbar from "../components/Navbar";
 import QuizGame from "../components/QuizComponent";
 import Hangman from "../components/Hangman";
+import MemoryGame from "../components/Memory";
 
 //Games page
 export default function Games() {
@@ -18,6 +19,7 @@ export default function Games() {
             <GamesNavBar onSelectGame={selectGame}/>
             {activeGame === 'Quiz' && <QuizGame />}
             {activeGame === 'Hangman' && <Hangman />}
+            {activeGame === 'Memory' && <MemoryGame />}
         </>
     )
 }
