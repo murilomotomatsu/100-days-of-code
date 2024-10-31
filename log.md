@@ -224,5 +224,5 @@ Today I
 
 ➕ Fix some Issues
 
-**Link to work:** [Day14]()
+**Link to work:** [Day14](https://github.com/murilomotomatsu/100-days-of-code/commit/590139f0986f779f18af5b4ab0b0436a7ea6a0a5)
 
