@@ -120,3 +120,10 @@ Today I
 
 ➕ Fix some Issues
 
+### R1D14
+Day 14 of #100DaysOfCode 🚀
+
+Today I
+
+➕ Worked on a private project (freelance)
+

@@ -213,3 +213,16 @@ Today I
 
 **Link to work:** [Day13](https://github.com/murilomotomatsu/100-days-of-code/commit/5c0b8f81c03a002ecf504380ff60b88b68ce803b)
 
+### Day 14: October 31, 2024
+#####
+
+**Today's Progress**: 
+
+Day 14 of #100DaysOfCode 🚀
+
+Today I
+
+➕ Fix some Issues
+
+**Link to work:** [Day14]()
+
