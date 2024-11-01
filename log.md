@@ -226,3 +226,16 @@ Today I
 
 **Link to work:** [Day14](https://github.com/murilomotomatsu/100-days-of-code/commit/590139f0986f779f18af5b4ab0b0436a7ea6a0a5)
 
+### Day 15: November 01, 2024
+#####
+
+**Today's Progress**: 
+
+Day 15 of #100DaysOfCode 🚀
+
+Today I
+
+➕ Made QA on a freelance Project
+
+**Link to work:** [Day14](https://github.com/murilomotomatsu/100-days-of-code/commit/590139f0986f779f18af5b4ab0b0436a7ea6a0a5)
+
