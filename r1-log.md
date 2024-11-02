@@ -134,3 +134,10 @@ Today I
 
 ➕ Made QA on a private project (freelance)
 
+### R1D16
+Day 16 of #100DaysOfCode 🚀
+
+Today I
+
+➕ Continue QA on a private project (freelance)
+
