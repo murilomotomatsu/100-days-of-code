@@ -252,3 +252,16 @@ Today I
 
 **Link to work:** [Day16](https://github.com/murilomotomatsu/100-days-of-code/commit/b9759903d19883a35e414507c4e7dcc4220e5606)
 
+### Day 17: November 03, 2024
+#####
+
+**Today's Progress**: 
+
+Day 17 of #100DaysOfCode 🚀
+
+Today I
+
+➕ Made Metrics on a Freelance Project
+
+**Link to work:** [Day17]()
+

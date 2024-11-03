@@ -141,3 +141,10 @@ Today I
 
 ➕ Continue QA on a private project (freelance)
 
+### R1D17
+Day 17 of #100DaysOfCode 🚀
+
+Today I
+
+➕Made Metrics on a freelance Project
+
