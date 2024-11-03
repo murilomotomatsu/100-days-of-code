@@ -263,5 +263,5 @@ Today I
 
 ➕ Made Metrics on a Freelance Project
 
-**Link to work:** [Day17]()
+**Link to work:** [Day17](https://github.com/murilomotomatsu/100-days-of-code/commit/ad319f3468c7cf38da94ecba3fd574b70a8a3b4b)
 
