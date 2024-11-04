@@ -265,3 +265,16 @@ Today I
 
 **Link to work:** [Day17](https://github.com/murilomotomatsu/100-days-of-code/commit/ad319f3468c7cf38da94ecba3fd574b70a8a3b4b)
 
+### Day 18: November 04, 2024
+#####
+
+**Today's Progress**: 
+
+Day 18 of #100DaysOfCode 🚀
+
+Today I
+
+➕ Add Handle Whats on a project (freelance)
+
+**Link to work:** [Day18]()
+
