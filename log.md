@@ -290,5 +290,5 @@ Today I
 ➕ Defined the MVP with GPT’s assistance
 ➕ Initial development of an interactive visual platform in React
 
-**Link to work:** [Day19]()
+**Link to work:** [Day19](https://github.com/murilomotomatsu/100-days-of-code/commit/ef8e6f70055445c85347c0d5fd61167665150d4a)
 
