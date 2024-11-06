@@ -292,3 +292,17 @@ Today I
 
 **Link to work:** [Day19](https://github.com/murilomotomatsu/100-days-of-code/commit/ef8e6f70055445c85347c0d5fd61167665150d4a)
 
+### Day 20: November 06, 2024
+#####
+
+**Today's Progress**: 
+
+Day 20 of #100DaysOfCode 🚀
+
+Today I
+
+➕ Explored app functions
+➕ Offline testing of new elements
+
+**Link to work:** [Day19]()
+

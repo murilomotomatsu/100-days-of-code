@@ -162,3 +162,11 @@ Today I
 
 ➕ Defined the MVP with GPT’s assistance
 ➕ Initial development of an interactive visual platform in React
+
+### R1D20
+Day 20 of #100DaysOfCode 🚀
+
+Today I
+
+➕ Explored app functions
+➕ Offline testing of new elements
