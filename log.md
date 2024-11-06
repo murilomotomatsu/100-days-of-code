@@ -304,5 +304,5 @@ Today I
 ➕ Explored app functions
 ➕ Offline testing of new elements
 
-**Link to work:** [Day19]()
+**Link to work:** [Day19](https://github.com/murilomotomatsu/100-days-of-code/commit/e5416285f76571f0bc73bdfd44c4974aae71e352)
 
