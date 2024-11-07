@@ -170,3 +170,11 @@ Today I
 
 ➕ Explored app functions
 ➕ Offline testing of new elements
+
+### R1D21
+Day 21 of #100DaysOfCode 🚀
+
+Today I
+
+➕ Style editor added to the app
+➕ Exploring options for future export features

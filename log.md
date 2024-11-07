@@ -304,5 +304,20 @@ Today I
 ➕ Explored app functions
 ➕ Offline testing of new elements
 
-**Link to work:** [Day19](https://github.com/murilomotomatsu/100-days-of-code/commit/e5416285f76571f0bc73bdfd44c4974aae71e352)
+**Link to work:** [Day20](https://github.com/murilomotomatsu/100-days-of-code/commit/e5416285f76571f0bc73bdfd44c4974aae71e352)
+
+### Day 21: November 07, 2024
+#####
+
+**Today's Progress**: 
+
+Day 21 of #100DaysOfCode 🚀
+
+Today I
+
+
+➕ Style editor added to the app
+➕ Exploring options for future export features
+
+**Link to work:** [Day21]()
 
