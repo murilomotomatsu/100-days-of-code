@@ -178,3 +178,11 @@ Today I
 
 ➕ Style editor added to the app
 ➕ Exploring options for future export features
+
+### R1D22
+Day 22 of #100DaysOfCode 🚀
+
+Today I
+
+➕ Finished MVP with added styling
+➕ Tested how all features work together

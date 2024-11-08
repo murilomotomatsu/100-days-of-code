@@ -321,3 +321,18 @@ Today I
 
 **Link to work:** [Day21](https://github.com/murilomotomatsu/100-days-of-code/commit/83fa218cbcea7c58d18d6e352190adf16f26fc5b)
 
+### Day 22: November 08, 2024
+#####
+
+**Today's Progress**: 
+
+Day 22 of #100DaysOfCode 🚀
+
+Today I
+
+➕ Finished MVP with added styling
+➕ Tested how all features work together
+
+
+**Link to work:** [Day22]()
+
