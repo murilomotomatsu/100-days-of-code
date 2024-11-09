@@ -336,3 +336,18 @@ Today I
 
 **Link to work:** [Day22](https://github.com/murilomotomatsu/100-days-of-code/commit/9e471a5247d48ed0cf7be6c907fbac9cbe9e68a9)
 
+
+### Day 23: November 09, 2024
+#####
+
+**Today's Progress**: 
+
+Day 23 of #100DaysOfCode 🚀
+
+Today I
+
+➕ Set up remarketing automation
+➕ Integrated with Google Sheets and sent WhatsApp messages via Jetchat
+
+**Link to work:** [Day23]()
+

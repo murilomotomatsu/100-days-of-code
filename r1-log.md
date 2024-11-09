@@ -186,3 +186,11 @@ Today I
 
 ➕ Finished MVP with added styling
 ➕ Tested how all features work together
+
+### R1D23
+Day 23 of #100DaysOfCode 🚀
+
+Today I
+
+➕ Set up remarketing automation
+➕ Integrated with Google Sheets and sent WhatsApp messages via Jetchat
