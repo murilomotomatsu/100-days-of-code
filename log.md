@@ -349,5 +349,5 @@ Today I
 ➕ Set up remarketing automation
 ➕ Integrated with Google Sheets and sent WhatsApp messages via Jetchat
 
-**Link to work:** [Day23]()
+**Link to work:** [Day23](https://github.com/murilomotomatsu/100-days-of-code/commit/2b2158c465c31ae5015161a7c569a62e7b3079e2)
 
