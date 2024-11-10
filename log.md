@@ -351,3 +351,18 @@ Today I
 
 **Link to work:** [Day23](https://github.com/murilomotomatsu/100-days-of-code/commit/2b2158c465c31ae5015161a7c569a62e7b3079e2)
 
+
+### Day 24: November 10, 2024
+#####
+
+**Today's Progress**: 
+
+Day 24 of #100DaysOfCode 🚀
+
+Today I
+
+➕ Button click log to track interactions
+➕ Admin panel for messaging flow control
+
+**Link to work:** [Day24]()
+
