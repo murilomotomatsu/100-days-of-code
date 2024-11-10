@@ -364,5 +364,5 @@ Today I
 ➕ Button click log to track interactions
 ➕ Admin panel for messaging flow control
 
-**Link to work:** [Day24]()
+**Link to work:** [Day24](https://github.com/murilomotomatsu/100-days-of-code/commit/49512cd3d203f8dfefe4084f17baca3b93ccfd04)
 
