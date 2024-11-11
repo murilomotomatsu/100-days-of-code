@@ -202,3 +202,12 @@ Today I
 
 ➕ Button click log to track interactions
 ➕ Admin panel for messaging flow control
+
+### R1D25
+Day 25 of #100DaysOfCode 🚀
+
+Highlights so far:
+
+➕ Games, automations, and integrations
+➕ Front-end and React learning
+➕ Completions of MVPs

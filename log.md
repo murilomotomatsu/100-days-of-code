@@ -366,3 +366,18 @@ Today I
 
 **Link to work:** [Day24](https://github.com/murilomotomatsu/100-days-of-code/commit/49512cd3d203f8dfefe4084f17baca3b93ccfd04)
 
+### Day 24: November 11, 2024
+#####
+
+**Today's Progress**: 
+
+Day 25 of #100DaysOfCode 🚀
+
+Highlights so far:
+
+➕ Games, automations, and integrations
+➕ Front-end and React learning
+➕ Completions of MVPs
+
+**Link to work:** [Day25]()
+
