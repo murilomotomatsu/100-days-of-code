@@ -211,3 +211,10 @@ Highlights so far:
 ➕ Games, automations, and integrations
 ➕ Front-end and React learning
 ➕ Completions of MVPs
+
+### R1D26
+Day 26 of #100DaysOfCode 🚀
+
+Today I
+
+➕ Explore My Canva React app
