@@ -225,3 +225,10 @@ Day 27 of #100DaysOfCode 🚀
 Today I
 
 ➕ Added a button for duplicating elements and integrated copy-paste in my Canva React app
+
+### R1D28
+Day 28 of #100DaysOfCode 🚀
+
+Today I
+
+➕ Worked on a Api for a test in a job! 

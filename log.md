@@ -411,3 +411,17 @@ Today I
 
 **Link to work:** [Day27](https://github.com/murilomotomatsu/100-days-of-code/commit/d7505b7d1a0260b794f25b7f1d4d7e0473f1e6b1)
 
+### Day 28: November 14, 2024
+#####
+
+**Today's Progress**: 
+
+Day 28 of #100DaysOfCode 🚀
+
+Today I
+
+➕ Worked on a Api for a test in a job! 
+
+
+**Link to work:** [Day28]()
+
