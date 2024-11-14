@@ -396,3 +396,18 @@ Today I
 
 **Link to work:** [Day26](https://github.com/murilomotomatsu/100-days-of-code/commit/183b1cd25ed55fdb65fc55ac1070d246e54ea22c)
 
+### Day 27: November 13, 2024
+#####
+
+**Today's Progress**: 
+
+Day 27 of #100DaysOfCode 🚀
+
+Today I
+
+➕ Added a button for duplicating elements and integrated copy-paste in my Canva React app
+
+
+
+**Link to work:** [Day27](https://github.com/murilomotomatsu/100-days-of-code/commit/183b1cd25ed55fdb65fc55ac1070d246e54ea22c)
+
