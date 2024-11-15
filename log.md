@@ -425,3 +425,18 @@ Today I
 
 **Link to work:** [Day28](https://github.com/murilomotomatsu/100-days-of-code/commit/b12b38586b197ac64444def634362c62676531ac)
 
+### Day 29: November 15, 2024
+#####
+
+**Today's Progress**: 
+
+Day 29 of #100DaysOfCode 🚀
+
+Today I
+
+➕ Created the initial project structure with Next.js.
+➕ Established connection to fetch data from the API created yesterday.
+
+
+**Link to work:** [Day29]()
+

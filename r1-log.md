@@ -232,3 +232,11 @@ Day 28 of #100DaysOfCode 🚀
 Today I
 
 ➕ Worked on a Api for a test in a job! 
+
+### R1D29
+Day 29 of #100DaysOfCode 🚀
+
+Today I
+
+➕ Created the initial project structure with Next.js.
+➕ Established connection to fetch data from the API created yesterday.
