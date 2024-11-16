@@ -240,3 +240,10 @@ Today I
 
 ➕ Created the initial project structure with Next.js.
 ➕ Established connection to fetch data from the API created yesterday.
+
+### R1D30
+Day 30 of #100DaysOfCode 🚀
+
+Today I
+
+➕ Implemented the front-end design.

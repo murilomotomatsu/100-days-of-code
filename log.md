@@ -440,3 +440,16 @@ Today I
 
 **Link to work:** [Day29](https://github.com/murilomotomatsu/100-days-of-code/commit/0ab8f8ccd31f493aa1b729a8077b1dedbe120955)
 
+### Day 30: November 16, 2024
+#####
+
+**Today's Progress**: 
+
+Day 30 of #100DaysOfCode 🚀
+
+Today I
+
+➕ Implemented the front-end design.
+
+**Link to work:** [Day30](https://github.com/murilomotomatsu/100-days-of-code/commit/0ab8f8ccd31f493aa1b729a8077b1dedbe120955)
+
