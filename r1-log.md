@@ -253,4 +253,6 @@ Day 31 of #100DaysOfCode 🚀
 
 Today I
 
-➕ Implemented a websocket using io
+➕ Implemented socket.io to set up a WebSocket backend.
+➕ Created unique IDs with uuid.
+➕ Configured CORS and Express for a secure and functional collaboration environment.
