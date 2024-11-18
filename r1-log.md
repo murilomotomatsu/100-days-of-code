@@ -247,3 +247,10 @@ Day 30 of #100DaysOfCode 🚀
 Today I
 
 ➕ Implemented the front-end design.
+
+### R1D31
+Day 31 of #100DaysOfCode 🚀
+
+Today I
+
+➕ Implemented a websocket using io

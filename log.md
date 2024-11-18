@@ -453,3 +453,16 @@ Today I
 
 **Link to work:** [Day30](https://github.com/murilomotomatsu/100-days-of-code/commit/974ad4038b5347f41163361d76e8bb43e9dcea94)
 
+### Day 31: November 17, 2024
+#####
+
+**Today's Progress**: 
+
+Day 31 of #100DaysOfCode 🚀
+
+Today I
+
+➕ Implemented a websocket using io
+
+**Link to work:** [Day30](https://github.com/murilomotomatsu/100-days-of-code/commit/974ad4038b5347f41163361d76e8bb43e9dcea94)
+
