@@ -468,3 +468,11 @@ Today I
 
 **Link to work:** [Day31](https://github.com/murilomotomatsu/100-days-of-code/commit/35b2120dd7d1780fcdee80369c51b37868fc0c68)
 
+Day 32 of #100DaysOfCode 🚀
+
+Today I
+
+➕ Today was all about making important updates to a freelance project I’ve previously shared here.
+
+**Link to work:** [Day32]()
+
