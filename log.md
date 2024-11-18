@@ -474,5 +474,5 @@ Today I
 
 ➕ Today was all about making important updates to a freelance project I’ve previously shared here.
 
-**Link to work:** [Day32]()
+**Link to work:** [Day32](https://github.com/murilomotomatsu/100-days-of-code/commit/8aa170e297fcb90260d6b01f9bd560311c2e91f1)
 
