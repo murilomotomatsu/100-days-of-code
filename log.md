@@ -485,5 +485,5 @@ Today I
 ➕ Reorganized the responsible CSS for improved structure.
 ➕ Fixed the root, and now the project is at zero exploding errors!
 
-**Link to work:** [Day33]()
+**Link to work:** [Day33](https://github.com/murilomotomatsu/100-days-of-code/commit/d520a19e90be9a96a4a66250fb75f4452f3fd101)
 
