@@ -476,3 +476,14 @@ Today I
 
 **Link to work:** [Day32](https://github.com/murilomotomatsu/100-days-of-code/commit/8aa170e297fcb90260d6b01f9bd560311c2e91f1)
 
+Day 33 of #100DaysOfCode 🚀
+
+Today I
+
+➕ Fixed all ESLint errors (there were tons 😅).
+➕ Adjusted logs for better monitoring.
+➕ Reorganized the responsible CSS for improved structure.
+➕ Fixed the root, and now the project is at zero exploding errors!
+
+**Link to work:** [Day33]()
+
