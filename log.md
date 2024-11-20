@@ -508,5 +508,5 @@ Results after:
 	CLS: 0
 
 
-**Link to work:** [Day34]()
+**Link to work:** [Day34](https://github.com/murilomotomatsu/100-days-of-code/commit/08bfbc7a4e3cdca8f4c336cce2743c60428566b8)
 
