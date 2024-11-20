@@ -273,3 +273,24 @@ Today I
 ➕ Adjusted logs for better monitoring.
 ➕ Reorganized the responsible CSS for improved structure.
 ➕ Fixed the root, and now the project is at zero exploding errors!
+
+### R1D34
+Day 34 of #100DaysOfCode 🚀
+
+Today, I focused on analyzing and optimizing my project's performance using GTmetrix, a tool I highly recommend for improving load times and responsiveness!
+
+Results before:
+🔴 Performance: 63%
+🟠 Structure: 80%
+📊 Web Vitals:
+	LCP: 3.0s
+	TBT: 252ms
+	CLS: 0
+
+Results after:
+🟢 Performance: 98%
+🟠 Structure: 85%
+📊 Web Vitals:
+	LCP: 1.6s
+	TBT: 30ms
+	CLS: 0

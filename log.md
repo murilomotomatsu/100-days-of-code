@@ -487,3 +487,26 @@ Today I
 
 **Link to work:** [Day33](https://github.com/murilomotomatsu/100-days-of-code/commit/d520a19e90be9a96a4a66250fb75f4452f3fd101)
 
+Day 34 of #100DaysOfCode 🚀
+
+Today, I focused on analyzing and optimizing my project's performance using GTmetrix, a tool I highly recommend for improving load times and responsiveness!
+
+Results before:
+🔴 Performance: 63%
+🟠 Structure: 80%
+📊 Web Vitals:
+	LCP: 3.0s
+	TBT: 252ms
+	CLS: 0
+
+Results after:
+🟢 Performance: 98%
+🟠 Structure: 85%
+📊 Web Vitals:
+	LCP: 1.6s
+	TBT: 30ms
+	CLS: 0
+
+
+**Link to work:** [Day34]()
+
