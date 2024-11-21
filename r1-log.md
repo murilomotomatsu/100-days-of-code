@@ -294,3 +294,12 @@ Results after:
 	LCP: 1.6s
 	TBT: 30ms
 	CLS: 0
+
+### R1D34
+Day 35 of #100DaysOfCode 🚀
+
+Today I,
+
+➕ Fully refactored ESLints in Flow B.
+➕ Finalized adjustments, ensuring cleaner and more functional code.
+➕ Made sure both flows follow best practices and coding standards.

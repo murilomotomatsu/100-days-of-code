@@ -510,3 +510,14 @@ Results after:
 
 **Link to work:** [Day34](https://github.com/murilomotomatsu/100-days-of-code/commit/08bfbc7a4e3cdca8f4c336cce2743c60428566b8)
 
+Day 35 of #100DaysOfCode 🚀
+
+Today I,
+ 
+➕ Fully refactored ESLints in Flow B.
+➕ Finalized adjustments, ensuring cleaner and more functional code.
+➕ Made sure both flows follow best practices and coding standards.
+
+
+**Link to work:** [Day34](https://github.com/murilomotomatsu/100-days-of-code/commit/08bfbc7a4e3cdca8f4c336cce2743c60428566b8)
+
