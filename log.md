@@ -521,3 +521,14 @@ Today I,
 
 **Link to work:** [Day35](https://github.com/murilomotomatsu/100-days-of-code/commit/107aa28db8d0fd94384e3315be33cf435f5e49ae)
 
+
+Day 36 of #100DaysOfCode 🚀
+
+Today I,
+
+➕ Created two new screens for the application.
+➕ Added new backend functions.
+
+
+**Link to work:** [Day36]()
+

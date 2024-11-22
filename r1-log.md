@@ -295,7 +295,7 @@ Results after:
 	TBT: 30ms
 	CLS: 0
 
-### R1D34
+### R1D35
 Day 35 of #100DaysOfCode 🚀
 
 Today I,
@@ -303,3 +303,11 @@ Today I,
 ➕ Fully refactored ESLints in Flow B.
 ➕ Finalized adjustments, ensuring cleaner and more functional code.
 ➕ Made sure both flows follow best practices and coding standards.
+
+### R1D36
+Day 36 of #100DaysOfCode 🚀
+
+Today I,
+
+➕ Created two new screens for the application.
+➕ Added new backend functions.
