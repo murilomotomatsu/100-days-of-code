@@ -311,3 +311,10 @@ Today I,
 
 ➕ Created two new screens for the application.
 ➕ Added new backend functions.
+
+### R1D37
+Day 37 of #100DaysOfCode 🚀
+
+Today I,
+
+➕ Componentize the buttons in my Canva for React project
