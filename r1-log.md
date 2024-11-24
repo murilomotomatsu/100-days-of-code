@@ -318,3 +318,10 @@ Day 37 of #100DaysOfCode 🚀
 Today I,
 
 ➕ Componentize the buttons in my Canva for React project
+
+### R1D38
+Day 38 of #100DaysOfCode 🚀
+
+Today I,
+
+➕ Worked on freelance.

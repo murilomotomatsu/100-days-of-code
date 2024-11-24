@@ -528,7 +528,6 @@ Today I,
 ➕ Created two new screens for the application.
 ➕ Added new backend functions.
 
-
 **Link to work:** [Day36](https://github.com/murilomotomatsu/100-days-of-code/commit/878e20d15b662d6a072c0f83ecdd44dee9150063)
 
 Day 37 of #100DaysOfCode 🚀
@@ -537,6 +536,13 @@ Today I,
 
 ➕ Componentize the buttons in my Canva for React project
 
-
 **Link to work:** [Day37](https://github.com/murilomotomatsu/100-days-of-code/commit/15356dfb5832f6c7be55be355673493a5019cb6a)
+
+Day 38 of #100DaysOfCode 🚀
+
+Today I,
+
+➕ Worked on a Freelance!
+
+**Link to work:** [Day38]()
 
