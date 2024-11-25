@@ -554,5 +554,5 @@ Today I,
 ➕ Worked on adjustments for several pages to ensure smooth functionality.
 
 
-**Link to work:** [Day39]()
+**Link to work:** [Day39](https://github.com/murilomotomatsu/100-days-of-code/commit/493c068856fe99d5f5a868171beaf353a72e3314)
 
