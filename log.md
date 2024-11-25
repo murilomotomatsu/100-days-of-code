@@ -544,5 +544,15 @@ Today I,
 
 ➕ Worked on a Freelance!
 
-**Link to work:** [Day38]()
+**Link to work:** [Day38](https://github.com/murilomotomatsu/100-days-of-code/commit/a13d68bc7a389a5ae7e0cbd70f23bfeee212e9de)
+
+Day 39 of #100DaysOfCode 🚀
+
+Today I,
+
+➕ Performed a rollback for some A pages, bringing them back as a new option C.
+➕ Worked on adjustments for several pages to ensure smooth functionality.
+
+
+**Link to work:** [Day39]()
 
