@@ -564,5 +564,5 @@ Today I,
 ➕ Built a Python-based backend to monitor a Redis server.
 ➕ The system detects new users, retrieves their data, processes it, and saves the output back into Redis.
 
-**Link to work:** [Day40]()
+**Link to work:** [Day40](https://github.com/murilomotomatsu/100-days-of-code/commit/01d578f87774a654b902d3f30a5b1c30e26b9912)
 
