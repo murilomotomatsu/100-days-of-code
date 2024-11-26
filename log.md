@@ -556,3 +556,13 @@ Today I,
 
 **Link to work:** [Day39](https://github.com/murilomotomatsu/100-days-of-code/commit/493c068856fe99d5f5a868171beaf353a72e3314)
 
+
+Day 40 of #100DaysOfCode 🚀
+
+Today I,
+
+➕ Built a Python-based backend to monitor a Redis server.
+➕ The system detects new users, retrieves their data, processes it, and saves the output back into Redis.
+
+**Link to work:** [Day40]()
+
