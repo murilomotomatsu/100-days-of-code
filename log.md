@@ -566,3 +566,11 @@ Today I,
 
 **Link to work:** [Day40](https://github.com/murilomotomatsu/100-days-of-code/commit/01d578f87774a654b902d3f30a5b1c30e26b9912)
 
+Day 41 of #100DaysOfCode 🚀
+
+Today I,
+
+➕ Added new features to the Python backend I built yesterday.
+
+**Link to work:** [Day41]()
+
