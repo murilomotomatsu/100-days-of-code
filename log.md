@@ -572,5 +572,5 @@ Today I,
 
 ➕ Added new features to the Python backend I built yesterday.
 
-**Link to work:** [Day41]()
+**Link to work:** [Day41](https://github.com/murilomotomatsu/100-days-of-code/commit/33c566fccb122259fffdc8f7a784e1dd10294978)
 
