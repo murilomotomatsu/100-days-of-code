@@ -348,3 +348,10 @@ Day 41 of #100DaysOfCode 🚀
 Today I,
 
 ➕ Added new features to the Python backend I built yesterday.
+
+### R1D42
+Day 42 of #100DaysOfCode 🚀
+
+Today I,
+
+➕ Add Lazy to videoPlayer component

@@ -1,1 +1,1 @@
-export const completedDays = [41];
+export const completedDays = [42];

@@ -574,3 +574,12 @@ Today I,
 
 **Link to work:** [Day41](https://github.com/murilomotomatsu/100-days-of-code/commit/33c566fccb122259fffdc8f7a784e1dd10294978)
 
+
+Day 42 of #100DaysOfCode 🚀
+
+Today I,
+
+➕ Add Lazy to videoPlayer component
+
+**Link to work:** [Day42]()
+
