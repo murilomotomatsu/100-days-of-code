@@ -581,5 +581,5 @@ Today I,
 
 ➕ Add Lazy to videoPlayer component
 
-**Link to work:** [Day42]()
+**Link to work:** [Day42](https://github.com/murilomotomatsu/100-days-of-code/commit/be5490c0599e3891f1d051c506584d57ec178e0c)
 
