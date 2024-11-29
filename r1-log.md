@@ -355,3 +355,11 @@ Day 42 of #100DaysOfCode 🚀
 Today I,
 
 ➕ Add Lazy to videoPlayer component
+
+### R1D43
+Day 43 of #100DaysOfCode 🚀
+
+Today I,
+
+➕ Fixed the bugs from yesterday’s implementation. 
+➕ Added lazy loading to the main video page.

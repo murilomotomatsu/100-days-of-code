@@ -1,12 +1,13 @@
-import { useEffect, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import { videosIds } from "../../constants/videosIds";
 import './VideoPlayer.css'
 
 export default function VideoPlayer() {
     const [visibleVideos, setVisibleVideos] = useState([]);
+    const observerRef = useRef(null);
 
     useEffect(() => {
-        const observer = new IntersectionObserver(
+        observerRef.current = new IntersectionObserver(
             (entries) => {
                 entries.forEach((entry) => {
                     if (entry.isIntersecting) {
@@ -14,16 +15,21 @@ export default function VideoPlayer() {
                         if (!visibleVideos.includes(videoId)) {
                             setVisibleVideos((prev) => [...prev, videoId]);
                         }
+                        return prev;
                     }
                 });
             },
             { threshold: 0.1 }
         );
-        const videoElements = document.querySelectorAll(".vidoe-placeholder");
-        videoElements.forEach((el) => observer.observe(el));
+        const videoElements = document.querySelectorAll(".video-wrapper");
+        videoElements.forEach((el) => observerRef.current.observe(el));
 
-        return () => observer.disconnect();
-    }, [visibleVideos])
+        return () => {
+            if (observerRef.current) {
+                observerRef.current.disconnect();
+            }
+        };
+    }, [])
 
     return (
         <div className="video-container">
@@ -35,11 +41,8 @@ export default function VideoPlayer() {
                             frameborder="0"
                             loading="lazy"
                         />
-                        
-                    ) : (
-                        <div className="video-placeholder">
-                            Loading...
-                        </div>
+                    ) : (                 
+                            <p>Loading...</p>                 
                     )}
                 </div>
             ))}

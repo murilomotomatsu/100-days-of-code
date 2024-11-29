@@ -583,3 +583,12 @@ Today I,
 
 **Link to work:** [Day42](https://github.com/murilomotomatsu/100-days-of-code/commit/be5490c0599e3891f1d051c506584d57ec178e0c)
 
+Day 43 of #100DaysOfCode 🚀
+
+Today I,
+
+➕ Fixed the bugs from yesterday’s implementation. 
+➕ Added lazy loading to the main video page.
+
+**Link to work:** [Day43]()
+
