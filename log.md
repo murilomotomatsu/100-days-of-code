@@ -590,5 +590,5 @@ Today I,
 ➕ Fixed the bugs from yesterday’s implementation. 
 ➕ Added lazy loading to the main video page.
 
-**Link to work:** [Day43]()
+**Link to work:** [Day43](https://github.com/murilomotomatsu/100-days-of-code/commit/6af5b826183205a5f1f2f8b7ca04aed4e8ac4826)
 
