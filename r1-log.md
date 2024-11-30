@@ -363,3 +363,11 @@ Today I,
 
 ➕ Fixed the bugs from yesterday’s implementation. 
 ➕ Added lazy loading to the main video page.
+
+### R1D44
+Day 44 of #100DaysOfCode 🚀
+
+Today I,
+
+➕ Adjust scrolling into Video Player Component
+

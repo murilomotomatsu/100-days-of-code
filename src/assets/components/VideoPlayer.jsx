@@ -5,7 +5,9 @@ import './VideoPlayer.css'
 export default function VideoPlayer() {
     const [visibleVideos, setVisibleVideos] = useState([]);
     const observerRef = useRef(null);
+    const [currentVideoIndex, setCurrentVideoIndex] = useState(0);
 
+    // Intersection Observer for lazy 
     useEffect(() => {
         observerRef.current = new IntersectionObserver(
             (entries) => {
@@ -31,6 +33,29 @@ export default function VideoPlayer() {
         };
     }, [])
 
+    //Key Events
+    useEffect(() => {
+        const handleKeyDown = (event) => {
+            const videoElements = document.querySelectorAll(".video-wrapper");
+            if (videoElements.length === 0) return;
+
+            if (event.key === "ArrowDown") {
+                const nextIndex = Math.min(currentVideoIndex + 1, videoElements.length - 1);
+                setCurrentVideoIndex(nextIndex);
+                videoElements[nextIndex].scrollIntoView({ behavior: "smooth"});
+            } else if (event.key === "ArrowUp") {
+                const prevIndex = Math.max(currentVideoIndex -1, 0);
+                setCurrentVideoIndex(prevIndex);
+                videoElements[prevIndex].scrollIntoView({ behavior: "smooth"});
+            }
+        };
+        window.addEventListener("keydown", handleKeyDown);
+
+        return () => {
+            window.removeEventListener("keydown", handleKeyDown);
+        }
+    }, [currentVideoIndex]);
+
     return (
         <div className="video-container">
             {videosIds.map((videoId, index) => (
@@ -41,8 +66,8 @@ export default function VideoPlayer() {
                             frameborder="0"
                             loading="lazy"
                         />
-                    ) : (                 
-                            <p>Loading...</p>                 
+                    ) : (
+                        <p>Loading...</p>
                     )}
                 </div>
             ))}
