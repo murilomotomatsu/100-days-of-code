@@ -36,14 +36,15 @@ export default function VideoPlayer() {
     //Key Events
     useEffect(() => {
         const handleKeyDown = (event) => {
+            event.preventDefault();
             const videoElements = document.querySelectorAll(".video-wrapper");
             if (videoElements.length === 0) return;
 
-            if (event.key === "ArrowDown") {
+            if (event.key === "ArrowDown" || event.key === "ArrowRight") {
                 const nextIndex = Math.min(currentVideoIndex + 1, videoElements.length - 1);
                 setCurrentVideoIndex(nextIndex);
                 videoElements[nextIndex].scrollIntoView({ behavior: "smooth"});
-            } else if (event.key === "ArrowUp") {
+            } else if (event.key === "ArrowUp" || event.key === "ArrowLeft") {
                 const prevIndex = Math.max(currentVideoIndex -1, 0);
                 setCurrentVideoIndex(prevIndex);
                 videoElements[prevIndex].scrollIntoView({ behavior: "smooth"});
@@ -54,6 +55,27 @@ export default function VideoPlayer() {
         return () => {
             window.removeEventListener("keydown", handleKeyDown);
         }
+    }, [currentVideoIndex]);
+    
+    // Scroll Events
+    useEffect(() => {
+        const handleWheel= (event) => {
+            const videoElements = document.querySelectorAll(".video-wrapper");
+            if (event.deltaY > 0) {
+                const nextIndex = Math.min(currentVideoIndex + 1, videoElements.length - 1);
+                setCurrentVideoIndex(nextIndex);
+                videoElements[nextIndex].scrollIntoView({ behavior: "smooth"});
+            } else {
+                const prevIndex = Math.max(currentVideoIndex -1, 0);
+                setCurrentVideoIndex(prevIndex);
+                videoElements[prevIndex].scrollIntoView({ behavior: "smooth"});
+            }
+        };
+        window.addEventListener("wheel", handleWheel);
+
+        return () => {
+            window.removeEventListener("wheel", handleWheel);
+        };
     }, [currentVideoIndex]);
 
     return (
@@ -67,7 +89,7 @@ export default function VideoPlayer() {
                             loading="lazy"
                         />
                     ) : (
-                        <p>Loading...</p>
+                        <p className="video-placeholder">Loading...</p>
                     )}
                 </div>
             ))}

@@ -6,10 +6,10 @@ import Navbar from "../components/Navbar";
 export default function Home () {
 
     return(
-        <>
+        <div className="mainApp"> 
             <Navbar />
             <Todo editable={true} />
             <Todo editable={false} />
-        </>
+        </div>
     )
 }

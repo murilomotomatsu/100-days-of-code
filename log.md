@@ -600,3 +600,11 @@ Today I,
 
 **Link to work:** [Day44](https://github.com/murilomotomatsu/100-days-of-code/commit/94fae473ac45204b6047b51d8ed2ce5fb02dad3b)
 
+Day 45 of #100DaysOfCode 🚀
+
+Today I,
+
+➕ Adjust scrolling(Wheel) into Video Player Component
+
+**Link to work:** [Day45]()
+

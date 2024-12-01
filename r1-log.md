@@ -371,3 +371,10 @@ Today I,
 
 ➕ Adjust scrolling into Video Player Component
 
+### R1D45
+Day 45 of #100DaysOfCode 🚀
+
+Today I,
+
+➕ Adjust scrolling(Wheel) into Video Player Component
+

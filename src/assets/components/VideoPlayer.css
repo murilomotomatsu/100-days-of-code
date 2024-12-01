@@ -13,7 +13,8 @@
 .video-wrapper iframe {
     width: 80%;
     border-radius: 15px;
-    height: 100vh;
+    height: 85vh;
+    margin: 30px;
 }
 
 .video-wrapper {
@@ -24,6 +25,7 @@
 }
 
 .video-placeholder {
-    height: 100vh;
+    height: 85vh;
+    width: 80%;
     background-color: #F0F0F0;
 }
