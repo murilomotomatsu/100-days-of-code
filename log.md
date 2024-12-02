@@ -608,3 +608,11 @@ Today I,
 
 **Link to work:** [Day45](https://github.com/murilomotomatsu/100-days-of-code/commit/92d129556c6b1bf9cb5e7d610cc94941811001cb)
 
+Day 46 of #100DaysOfCode 🚀
+
+Today I,
+
+➕ Add Autoplay to Video Player Component
+
+**Link to work:** [Day46]()
+

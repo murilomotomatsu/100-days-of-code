@@ -6,23 +6,47 @@ export default function VideoPlayer() {
     const [visibleVideos, setVisibleVideos] = useState([]);
     const observerRef = useRef(null);
     const [currentVideoIndex, setCurrentVideoIndex] = useState(0);
+    const [iframeReady, setIframeReady] = useState({});
 
-    // Intersection Observer for lazy 
-    useEffect(() => {
+    const handleIframeLoad = (videoId) => {
+        setIframeReady((prev) => ({ ...prev, [videoId]: true}));
+    };
+
+      // Intersection Observer for lazy
+      useEffect(() => {
         observerRef.current = new IntersectionObserver(
             (entries) => {
                 entries.forEach((entry) => {
+                    const videoId = entry.target.getAttribute("data-video-id");
+                    const iframe = entry.target.querySelector("iframe");
+
                     if (entry.isIntersecting) {
-                        const videoId = entry.target.getAttribute("data-video-id");
                         if (!visibleVideos.includes(videoId)) {
                             setVisibleVideos((prev) => [...prev, videoId]);
                         }
-                        return prev;
+
+                        const index = Number(entry.target.getAttribute("data-index"));
+                        setCurrentVideoIndex(index);
+
+                        if (iframe && iframeReady[videoId]) {
+                            iframe.contentWindow.postMessage(
+                                '{"event": "command","func":"playVideo","args":""}',
+                                "*"
+                            );
+                        }
+                    } else {
+                        if (iframe && iframeReady[videoId]) {
+                            iframe.contentWindow.postMessage(
+                                '{"event":"command","func":"pauseVideo","args":""}',
+                                "*"
+                            );
+                        }
                     }
                 });
             },
-            { threshold: 0.1 }
+            { threshold: 0.5 }
         );
+
         const videoElements = document.querySelectorAll(".video-wrapper");
         videoElements.forEach((el) => observerRef.current.observe(el));
 
@@ -31,7 +55,8 @@ export default function VideoPlayer() {
                 observerRef.current.disconnect();
             }
         };
-    }, [])
+    }, [visibleVideos, iframeReady]);
+
 
     //Key Events
     useEffect(() => {
@@ -60,6 +85,7 @@ export default function VideoPlayer() {
     // Scroll Events
     useEffect(() => {
         const handleWheel= (event) => {
+            event.preventDefault()
             const videoElements = document.querySelectorAll(".video-wrapper");
             if (event.deltaY > 0) {
                 const nextIndex = Math.min(currentVideoIndex + 1, videoElements.length - 1);
@@ -81,12 +107,14 @@ export default function VideoPlayer() {
     return (
         <div className="video-container">
             {videosIds.map((videoId, index) => (
-                <div key={index} className="video-wrapper" data-video-id={videoId}>
+                <div key={index} className="video-wrapper" data-video-id={videoId} data-index={index}>
                     {visibleVideos.includes(videoId) ? (
                         <iframe
-                            src={`https://www.youtube.com/embed/${videoId}`}
-                            frameborder="0"
+                            src={`https://www.youtube.com/embed/${videoId}?enablejsapi=1`}
+                            frameBorder="0"
+                            allow="autoplay"
                             loading="lazy"
+                            onLoad={() => handleIframeLoad(videoId)}
                         />
                     ) : (
                         <p className="video-placeholder">Loading...</p>

@@ -378,3 +378,10 @@ Today I,
 
 ➕ Adjust scrolling(Wheel) into Video Player Component
 
+### R1D46
+Day 46 of #100DaysOfCode 🚀
+
+Today I,
+
+➕ Add Autoplay to Video Player Component
+
