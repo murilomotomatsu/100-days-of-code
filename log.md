@@ -614,5 +614,5 @@ Today I,
 
 ➕ Add Autoplay to Video Player Component
 
-**Link to work:** [Day46]()
+**Link to work:** [Day46](https://github.com/murilomotomatsu/100-days-of-code/commit/d0a667e2653bd2f0d9f13b9e73763c592d89f592)
 
