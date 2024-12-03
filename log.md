@@ -616,3 +616,11 @@ Today I,
 
 **Link to work:** [Day46](https://github.com/murilomotomatsu/100-days-of-code/commit/d0a667e2653bd2f0d9f13b9e73763c592d89f592)
 
+Day 47 of #100DaysOfCode 🚀
+
+Today I,
+
+➕ Replaced scrollIntoView using requestAnimationFrame
+
+**Link to work:** [Day47]()
+

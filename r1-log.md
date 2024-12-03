@@ -385,3 +385,11 @@ Today I,
 
 ➕ Add Autoplay to Video Player Component
 
+### R1D46=7
+Day 47 of #100DaysOfCode 🚀
+
+Today I,
+
+➕ Replaced scrollIntoView using requestAnimationFrame
+
+

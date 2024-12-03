@@ -9,11 +9,37 @@ export default function VideoPlayer() {
     const [iframeReady, setIframeReady] = useState({});
 
     const handleIframeLoad = (videoId) => {
-        setIframeReady((prev) => ({ ...prev, [videoId]: true}));
+        setIframeReady((prev) => ({ ...prev, [videoId]: true }));
     };
 
-      // Intersection Observer for lazy
-      useEffect(() => {
+    // Smooth Scroll 
+    const smoothScroll = (targetElement, duration = 800) => {
+        const container = document.querySelector(".video-container");
+        const start = container.scrollTop;
+        const end = targetElement.offsetTop - container.offsetTop;
+        const distance = end - start;
+        const startTime = performance.now();
+
+        const smoothStep = (start, end, point) => {
+            return start + (end - start) * point * point * (3 - 2 * point);
+        };
+
+        const animateScroll = (currentTime) => {
+            const elapsed = currentTime - startTime;
+            const progress = Math.min(elapsed / duration, 1);
+            const nextScrollTop = smoothStep(start, end, progress);
+
+            container.scrollTo(0, nextScrollTop);
+
+            if (progress < 1) {
+                requestAnimationFrame(animateScroll);
+            }
+        };
+        requestAnimationFrame(animateScroll);
+    }
+
+    // Intersection Observer for lazy
+    useEffect(() => {
         observerRef.current = new IntersectionObserver(
             (entries) => {
                 entries.forEach((entry) => {
@@ -68,11 +94,11 @@ export default function VideoPlayer() {
             if (event.key === "ArrowDown" || event.key === "ArrowRight") {
                 const nextIndex = Math.min(currentVideoIndex + 1, videoElements.length - 1);
                 setCurrentVideoIndex(nextIndex);
-                videoElements[nextIndex].scrollIntoView({ behavior: "smooth"});
+                smoothScroll(videoElements[nextIndex]);
             } else if (event.key === "ArrowUp" || event.key === "ArrowLeft") {
-                const prevIndex = Math.max(currentVideoIndex -1, 0);
+                const prevIndex = Math.max(currentVideoIndex - 1, 0);
                 setCurrentVideoIndex(prevIndex);
-                videoElements[prevIndex].scrollIntoView({ behavior: "smooth"});
+                smoothScroll(videoElements[prevIndex]);
             }
         };
         window.addEventListener("keydown", handleKeyDown);
@@ -81,20 +107,20 @@ export default function VideoPlayer() {
             window.removeEventListener("keydown", handleKeyDown);
         }
     }, [currentVideoIndex]);
-    
+
     // Scroll Events
     useEffect(() => {
-        const handleWheel= (event) => {
+        const handleWheel = (event) => {
             event.preventDefault()
             const videoElements = document.querySelectorAll(".video-wrapper");
             if (event.deltaY > 0) {
                 const nextIndex = Math.min(currentVideoIndex + 1, videoElements.length - 1);
                 setCurrentVideoIndex(nextIndex);
-                videoElements[nextIndex].scrollIntoView({ behavior: "smooth"});
+                smoothScroll(videoElements[nextIndex]);
             } else {
-                const prevIndex = Math.max(currentVideoIndex -1, 0);
-                setCurrentVideoIndex(prevIndex);
-                videoElements[prevIndex].scrollIntoView({ behavior: "smooth"});
+                const prevIndex = Math.max(currentVideoIndex - 1, 0);
+                setCurrentVideoIndex(prevIndex);   
+                smoothScroll(videoElements[prevIndex])
             }
         };
         window.addEventListener("wheel", handleWheel);
