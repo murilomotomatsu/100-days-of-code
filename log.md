@@ -630,5 +630,5 @@ Today I,
 
 ➕ Built a Firebase Realtime Database API
 
-**Link to work:** [Day48]()
+**Link to work:** [Day48](https://github.com/murilomotomatsu/100-days-of-code/commit/e3ed49402506b5ca7e4119985a74ab7a08082c0c)
 
