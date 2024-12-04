@@ -385,7 +385,7 @@ Today I,
 
 ➕ Add Autoplay to Video Player Component
 
-### R1D46=7
+### R1D47
 Day 47 of #100DaysOfCode 🚀
 
 Today I,
@@ -393,3 +393,9 @@ Today I,
 ➕ Replaced scrollIntoView using requestAnimationFrame
 
 
+### R1D48
+Day 48 of #100DaysOfCode 🚀
+
+Today I,
+
+➕ Built a Firebase Realtime Database API

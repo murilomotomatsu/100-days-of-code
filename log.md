@@ -624,3 +624,11 @@ Today I,
 
 **Link to work:** [Day47](https://github.com/murilomotomatsu/100-days-of-code/commit/129d5d46374a7fcf25a12d5e9a38e9f38e774235)
 
+Day 48 of #100DaysOfCode 🚀
+
+Today I,
+
+➕ Built a Firebase Realtime Database API
+
+**Link to work:** [Day48]()
+
