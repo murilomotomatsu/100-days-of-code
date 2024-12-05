@@ -392,10 +392,16 @@ Today I,
 
 ➕ Replaced scrollIntoView using requestAnimationFrame
 
-
 ### R1D48
 Day 48 of #100DaysOfCode 🚀
 
 Today I,
 
 ➕ Built a Firebase Realtime Database API
+
+### R1D49
+Day 49 of #100DaysOfCode 🚀
+
+Today I,
+
+➕ Created firebase-services on front

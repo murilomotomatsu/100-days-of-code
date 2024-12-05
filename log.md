@@ -632,3 +632,11 @@ Today I,
 
 **Link to work:** [Day48](https://github.com/murilomotomatsu/100-days-of-code/commit/e3ed49402506b5ca7e4119985a74ab7a08082c0c)
 
+Day 49 of #100DaysOfCode 🚀
+
+Today I,
+
+➕ Created firebase-services on front
+
+**Link to work:** [Day49]()
+
