@@ -646,5 +646,5 @@ Today I,
 
 ➕ Added the Quiz Ranking!
 
-**Link to work:** [Day50]()
+**Link to work:** [Day50](https://github.com/murilomotomatsu/100-days-of-code/commit/c1bab02ab15cf15120c23183012c27a44afe0d93)
 
