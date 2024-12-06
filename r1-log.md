@@ -405,3 +405,10 @@ Day 49 of #100DaysOfCode 🚀
 Today I,
 
 ➕ Created firebase-services on front
+
+### R1D50
+Day 50 of #100DaysOfCode 🚀
+
+Today I,
+
+➕ Added the Quiz Ranking!

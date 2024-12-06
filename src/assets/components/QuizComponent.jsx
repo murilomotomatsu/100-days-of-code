@@ -3,6 +3,8 @@ import './QuizComponent.css'
 import { useEffect } from 'react';
 import { useRef } from 'react';
 import he from 'he';
+import rankService from '../../services/firebase-services';
+
 
 //Quiz Game
 export default function QuizGame() {
@@ -10,6 +12,7 @@ export default function QuizGame() {
     const [score, setScore] = useState(0);
     const [quizFinished, setQuizFinished] = useState(false)
     const [answeredQuestions, setAnsweredQuestions] = useState([]);
+    const [name, setName] = useState('');
     const isMounted = useRef(false);
 
     const getQuestion = async () => {
@@ -67,11 +70,18 @@ export default function QuizGame() {
             <div className="quiz-container">
                 <h2>End of Game!</h2>
                 <h2>Your Score: {score}</h2>
+                <input
+                    type="text"           
+                    placeholder='Enter Your Name'
+                    value={name}
+                    onChange={(e) => setName(e.target.value)}
+                />
+                <button onClick={() => rankService.addRank('quiz', name, score)}>Submit Score on Rank</button>
                 {answeredQuestions.map((answer, i) => (
-                    <div 
+                    <div
                         key={i}
                         className={answer.user_anwser === answer.correct_answer ? 'correct-answer' : 'incorrect-answer'}
-                    
+
                     >
                         <h3>{he.decode(answer.question)}</h3>
                         {answer.user_anwser === answer.correct_answer ? (

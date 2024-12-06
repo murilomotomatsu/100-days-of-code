@@ -640,3 +640,11 @@ Today I,
 
 **Link to work:** [Day49](https://github.com/murilomotomatsu/100-days-of-code/commit/853d80f8bc5ac84ede9962f094de46dc9a5377fe)
 
+Day 50 of #100DaysOfCode 🎉🎉🎉🎉🎉🎉
+
+Today I,
+
+➕ Added the Quiz Ranking!
+
+**Link to work:** [Day50]()
+
