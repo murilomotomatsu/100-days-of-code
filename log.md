@@ -648,3 +648,12 @@ Today I,
 
 **Link to work:** [Day50](https://github.com/murilomotomatsu/100-days-of-code/commit/c1bab02ab15cf15120c23183012c27a44afe0d93)
 
+
+Day 51 of #100DaysOfCode 🎉🎉🎉🎉🎉🎉
+
+Today I,
+
+➕ Fixed Broken Logs (freela)
+
+**Link to work:** [Day51]()
+

@@ -412,3 +412,10 @@ Day 50 of #100DaysOfCode 🚀
 Today I,
 
 ➕ Added the Quiz Ranking!
+
+### R1D50
+Day 51 of #100DaysOfCode 🚀
+
+Today I,
+
+➕ Fixed Broken Logs (freela)
