@@ -655,5 +655,5 @@ Today I,
 
 ➕ Fixed Broken Logs (freela)
 
-**Link to work:** [Day51]()
+**Link to work:** [Day51](https://github.com/murilomotomatsu/100-days-of-code/commit/5bf5298d099c191a95bfa98ee4f024de12043f28)
 
