@@ -657,3 +657,12 @@ Today I,
 
 **Link to work:** [Day51](https://github.com/murilomotomatsu/100-days-of-code/commit/5bf5298d099c191a95bfa98ee4f024de12043f28)
 
+Day 52 of #100DaysOfCode 🎉🎉🎉🎉🎉🎉
+
+Today I,
+
+➕ Component RankList
+➕ Added the quiz ranking as the first functional example.
+
+**Link to work:** [Day52](https://github.com/murilomotomatsu/100-days-of-code/commit/53326e45f98c372a386a3b3a223e957a90aac13b)
+

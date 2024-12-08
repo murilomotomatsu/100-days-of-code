@@ -413,9 +413,17 @@ Today I,
 
 ➕ Added the Quiz Ranking!
 
-### R1D50
+### R1D51
 Day 51 of #100DaysOfCode 🚀
 
 Today I,
 
 ➕ Fixed Broken Logs (freela)
+
+### R1D52
+Day 52 of #100DaysOfCode 🚀
+
+Today I,
+
+➕ Component RankList
+➕ Added the quiz ranking as the first functional example.
