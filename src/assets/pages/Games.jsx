@@ -4,6 +4,7 @@ import Navbar from "../components/Navbar";
 import QuizGame from "../components/QuizComponent";
 import Hangman from "../components/Hangman";
 import MemoryGame from "../components/Memory";
+import RankList from "../components/RankList";
 
 //Games page
 export default function Games() {
@@ -20,6 +21,8 @@ export default function Games() {
             {activeGame === 'Quiz' && <QuizGame />}
             {activeGame === 'Hangman' && <Hangman />}
             {activeGame === 'Memory' && <MemoryGame />}
+            {activeGame === 'Rank' && <RankList />}
+            
         </>
     )
 }

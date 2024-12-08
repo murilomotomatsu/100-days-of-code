@@ -9,6 +9,7 @@ export default function GamesNavBar({ onSelectGame }) {
                     <button onClick={() => onSelectGame('Hangman')}>Hangman</button>
                     <button onClick={() => onSelectGame('Quiz')}>Quiz</button>
                     <button onClick={() => onSelectGame('Memory')}>Memory</button>
+                    <button onClick={() => onSelectGame('Rank')}>Rank</button>
                 </li>
             </ul>
         </nav>
