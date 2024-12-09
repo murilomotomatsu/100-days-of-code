@@ -1,9 +1,11 @@
-import { useEffect, useState } from "react"
+import { memo, useEffect, useState } from "react"
 import rankService from "../../services/firebase-services";
+import './RankList.css'
 
 
 export default function RankList() {
     const [quizRank, setQuizRank] = useState([]);
+    const [memoryRank, setMemoryRank] = useState([]);
     const [loading, setLoading] = useState(true);
 
     const fetchRank = async () => {
@@ -11,10 +13,17 @@ export default function RankList() {
             setLoading(true)
 
             const quizData = await rankService.getRank('quiz');
+            const memoryData = await rankService.getRank('memory');
+
             const sortedQuizRank = Object.values(quizData || {})
                 .sort((a, b) => b.score - a.score)
                 .slice(0, 10);
 
+            const sortedMemoryRank = Object.values(memoryData || {})
+                .sort((a, b) => b.score - a.score)
+                .slice(0, 10);
+
+            setMemoryRank(sortedMemoryRank);
             setQuizRank(sortedQuizRank);
         } catch (error) {
             console.error('Error on load rank List:', error);
@@ -36,15 +45,28 @@ export default function RankList() {
         <div className="rank-container">
             <h2>Ranking</h2>
             <div className="rank-section">
-                <h3>Top 10 - Quiz</h3>
-                <ul>
-                    {quizRank.map((entry, index) => (
-                        <li key={index}>
-                            <strong>{index + 1}-</strong> {entry.nome} - {entry.score} points
+                <div className="rank-list">
+                    <h3>Top 10 - Quiz Game</h3>
+                    <ul>
+                        {quizRank.map((entry, index) => (
+                            <li key={index}>
+                                <strong>{index + 1}-</strong> {entry.nome} - {entry.score} points
 
-                        </li>
-                    ))}
-                </ul>
+                            </li>
+                        ))}
+                    </ul>
+                </div>
+                <div className="rank-list">
+                    <h3>Top 10 - Memory Game</h3>
+                    <ul>
+                        {memoryRank.map((entry, index) => (
+                            <li key={index}>
+                                <strong>{index + 1}-</strong> {entry.nome} - {entry.score} points
+
+                            </li>
+                        ))}
+                    </ul>
+                </div>
             </div>
         </div>
     )

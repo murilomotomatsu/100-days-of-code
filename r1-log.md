@@ -427,3 +427,10 @@ Today I,
 
 ➕ Component RankList
 ➕ Added the quiz ranking as the first functional example.
+
+### R1D53
+Day 53 of #100DaysOfCode 🚀
+
+Today I,
+
+➕ Css RankList
