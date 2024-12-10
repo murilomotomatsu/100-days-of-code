@@ -680,5 +680,5 @@ Today I,
 
 ➕ Freelance Project
 
-**Link to work:** [Day54]()
+**Link to work:** [Day54](https://github.com/murilomotomatsu/100-days-of-code/commit/665cbd38ea4cf05038f310135e2bd04b698177dd)
 
