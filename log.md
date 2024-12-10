@@ -674,3 +674,11 @@ Today I,
 
 **Link to work:** [Day53](https://github.com/murilomotomatsu/100-days-of-code/commit/c8e6a3f348638d4e8c5aa60b223cf10a7809830a)
 
+Day 54 of #100DaysOfCode 
+
+Today I,
+
+➕ Freelance Project
+
+**Link to work:** [Day54]()
+

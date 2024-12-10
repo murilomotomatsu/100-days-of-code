@@ -434,3 +434,10 @@ Day 53 of #100DaysOfCode 🚀
 Today I,
 
 ➕ Css RankList
+
+### R1D54
+Day 54 of #100DaysOfCode 🚀
+
+Today I,
+
+➕ Freelance Project
