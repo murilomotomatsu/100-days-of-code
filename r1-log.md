@@ -441,3 +441,10 @@ Day 54 of #100DaysOfCode 🚀
 Today I,
 
 ➕ Freelance Project
+
+### R1D55
+Day 55 of #100DaysOfCode 🚀
+
+Today I,
+
+➕ Integrated the Memory Game ranking with the Firebase realtime database.

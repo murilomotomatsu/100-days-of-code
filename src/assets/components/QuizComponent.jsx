@@ -76,7 +76,7 @@ export default function QuizGame() {
                     value={name}
                     onChange={(e) => setName(e.target.value)}
                 />
-                <button onClick={() => rankService.addRank('quiz', name, score)}>Submit Score on Rank</button>
+                <button onClick={() => rankService.addRank('quiz', name, score, Date.now())}>Submit Score on Rank</button>
                 {answeredQuestions.map((answer, i) => (
                     <div
                         key={i}

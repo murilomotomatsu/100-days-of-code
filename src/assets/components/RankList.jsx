@@ -61,7 +61,7 @@ export default function RankList() {
                     <ul>
                         {memoryRank.map((entry, index) => (
                             <li key={index}>
-                                <strong>{index + 1}-</strong> {entry.nome} - {entry.score} points
+                                <strong>{index + 1}-</strong> {entry.nome} - {entry.score} seconds
 
                             </li>
                         ))}

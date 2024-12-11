@@ -682,3 +682,11 @@ Today I,
 
 **Link to work:** [Day54](https://github.com/murilomotomatsu/100-days-of-code/commit/665cbd38ea4cf05038f310135e2bd04b698177dd)
 
+Day 55 of #100DaysOfCode 
+
+Today I,
+
+➕ Integrated the Memory Game ranking with the Firebase realtime database.
+
+**Link to work:** [Day55]()
+
