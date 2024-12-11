@@ -688,5 +688,5 @@ Today I,
 
 ➕ Integrated the Memory Game ranking with the Firebase realtime database.
 
-**Link to work:** [Day55]()
+**Link to work:** [Day55](https://github.com/murilomotomatsu/100-days-of-code/commit/1aaeefc85d4bd41502ebb0cb282c36496ab99cd3)
 
