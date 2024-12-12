@@ -696,5 +696,5 @@ Today I,
 
 ➕ Integrated the Hangman ranking with the Firebase realtime database.
 
-**Link to work:** [Day56]()
+**Link to work:** [Day56](https://github.com/murilomotomatsu/100-days-of-code/commit/2b394c5db94c6c9e1740be93584aab627fedd545)
 
