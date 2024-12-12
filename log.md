@@ -690,3 +690,11 @@ Today I,
 
 **Link to work:** [Day55](https://github.com/murilomotomatsu/100-days-of-code/commit/1aaeefc85d4bd41502ebb0cb282c36496ab99cd3)
 
+Day 56 of #100DaysOfCode 
+
+Today I,
+
+➕ Integrated the Hangman ranking with the Firebase realtime database.
+
+**Link to work:** [Day56]()
+

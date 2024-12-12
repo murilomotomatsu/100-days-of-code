@@ -448,3 +448,10 @@ Day 55 of #100DaysOfCode 🚀
 Today I,
 
 ➕ Integrated the Memory Game ranking with the Firebase realtime database.
+
+### R1D56
+Day 56 of #100DaysOfCode 🚀
+
+Today I,
+
+➕ Integrated the Hangman ranking with the Firebase realtime database.

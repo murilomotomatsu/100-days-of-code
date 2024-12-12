@@ -6,6 +6,7 @@ import './RankList.css'
 export default function RankList() {
     const [quizRank, setQuizRank] = useState([]);
     const [memoryRank, setMemoryRank] = useState([]);
+    const [hangmanRank, setHangmanRank] = useState([]);
     const [loading, setLoading] = useState(true);
 
     const fetchRank = async () => {
@@ -14,6 +15,7 @@ export default function RankList() {
 
             const quizData = await rankService.getRank('quiz');
             const memoryData = await rankService.getRank('memory');
+            const hangmanData = await rankService.getRank('hangman');
 
             const sortedQuizRank = Object.values(quizData || {})
                 .sort((a, b) => b.score - a.score)
@@ -22,9 +24,14 @@ export default function RankList() {
             const sortedMemoryRank = Object.values(memoryData || {})
                 .sort((a, b) => b.score - a.score)
                 .slice(0, 10);
+            
+            const sortedHangmanRank = Object.values(hangmanData || {})
+                .sort((a, b) => b.score - a.score)
+                .slice(0, 10);
 
             setMemoryRank(sortedMemoryRank);
             setQuizRank(sortedQuizRank);
+            setHangmanRank(sortedHangmanRank);
         } catch (error) {
             console.error('Error on load rank List:', error);
         }
@@ -62,6 +69,17 @@ export default function RankList() {
                         {memoryRank.map((entry, index) => (
                             <li key={index}>
                                 <strong>{index + 1}-</strong> {entry.nome} - {entry.score} seconds
+
+                            </li>
+                        ))}
+                    </ul>
+                </div>
+                <div className="rank-list">
+                    <h3>Top 10 - Hangman Game</h3>
+                    <ul>
+                        {hangmanRank.map((entry, index) => (
+                            <li key={index}>
+                                <strong>{index + 1}-</strong> {entry.nome} - {entry.score} points
 
                             </li>
                         ))}

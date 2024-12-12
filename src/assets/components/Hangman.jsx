@@ -1,12 +1,14 @@
 import { useEffect, useState } from "react"
 import './Hangman.css'
+import rankService from "../../services/firebase-services";
 
 export default function Hangman() {
     const [word, setWord] = useState('HANGMAN');
     const [remainingAttempts, setRemainingAttempts] = useState('6')
     const [attemptedLetters, setAttemptedLetters] = useState([]);
     const [isLoading, setIsLoading] = useState(true);
-    const alphabet = 'ABCDEFGHIJKLMNOPQRSTUVXWYZ';
+    const [name, setName] = useState('');
+    const alphabet = 'ABCDEFGHIJKLMNOPQRSTUVXWYZ-';
 
     useEffect(() => {
         newGame();
@@ -39,7 +41,6 @@ export default function Hangman() {
                     <h1>You LOST!</h1>
                     <h3>The word is {word}</h3>
                     <button onClick={resetGame}>Retry</button>
-
                 </div>
 
             </>
@@ -47,10 +48,21 @@ export default function Hangman() {
     }
 
     if (word.split('').every((letter) => attemptedLetters.includes(letter))) {
+        const score = remainingAttempts * 10;
+
         return (
             <div className="hangman-container">
                 <h1>You WON!</h1>
                 <h3>The word is {word}</h3>
+                <h3>Your score is: {score}</h3>
+
+                <input
+                    type="text"
+                    value={name}
+                    placeholder="Enter Your Name!"
+                    onChange={(e) => setName(e.target.value)}
+                />
+                <button onClick={() => rankService.addRank('hangman', name, score, Date.now())}>Submit on Rank!</button>
                 <button onClick={resetGame}>Play Again</button>
             </div>
         )
@@ -84,9 +96,7 @@ export default function Hangman() {
                     </button>
                 ))}
 
-
             </div>
-
         </div>
     )
 }
