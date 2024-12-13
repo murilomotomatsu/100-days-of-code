@@ -62,7 +62,10 @@ export default function Hangman() {
                     placeholder="Enter Your Name!"
                     onChange={(e) => setName(e.target.value)}
                 />
-                <button onClick={() => rankService.addRank('hangman', name, score, Date.now())}>Submit on Rank!</button>
+                <button onClick={() => { 
+                    rankService.addRank('hangman', name, score, Date.now());
+                    resetGame();
+                    }}>Submit on Rank!</button>
                 <button onClick={resetGame}>Play Again</button>
             </div>
         )

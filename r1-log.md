@@ -455,3 +455,10 @@ Day 56 of #100DaysOfCode 🚀
 Today I,
 
 ➕ Integrated the Hangman ranking with the Firebase realtime database.
+
+### R1D57
+Day 57 of #100DaysOfCode 🚀
+
+Today I,
+
+➕ Some Adjusts in games Ranks

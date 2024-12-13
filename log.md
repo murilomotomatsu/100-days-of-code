@@ -698,3 +698,11 @@ Today I,
 
 **Link to work:** [Day56](https://github.com/murilomotomatsu/100-days-of-code/commit/2b394c5db94c6c9e1740be93584aab627fedd545)
 
+Day 57 of #100DaysOfCode 
+
+Today I,
+
+➕ Some Adjusts in games Ranks
+
+**Link to work:** [Day57]()
+

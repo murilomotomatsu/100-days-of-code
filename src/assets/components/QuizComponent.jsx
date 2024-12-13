@@ -15,6 +15,14 @@ export default function QuizGame() {
     const [name, setName] = useState('');
     const isMounted = useRef(false);
 
+    const resetQuiz = async () => {
+        setScore(0);
+        setQuizFinished(false);
+        setAnsweredQuestions([]);
+        setName('');
+        await getQuestion();
+    };
+
     const getQuestion = async () => {
         while (true) {
             const response = await fetch('https://opentdb.com/api.php?amount=1');
@@ -71,12 +79,15 @@ export default function QuizGame() {
                 <h2>End of Game!</h2>
                 <h2>Your Score: {score}</h2>
                 <input
-                    type="text"           
+                    type="text"
                     placeholder='Enter Your Name'
                     value={name}
                     onChange={(e) => setName(e.target.value)}
                 />
-                <button onClick={() => rankService.addRank('quiz', name, score, Date.now())}>Submit Score on Rank</button>
+                <button onClick={() => {
+                    rankService.addRank('quiz', name, score, Date.now());
+                    resetQuiz();
+                }}>Submit Score on Rank</button>
                 {answeredQuestions.map((answer, i) => (
                     <div
                         key={i}
@@ -94,7 +105,7 @@ export default function QuizGame() {
                         )}
                     </div>
                 ))}
-                <button className='restart-button' onClick={() => window.location.reload()}>Restart Quiz</button>
+                <button className='restart-button' onClick={resetQuiz}>Restart Quiz</button>
             </div>
 
         )

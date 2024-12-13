@@ -87,7 +87,11 @@ export default function MemoryGame() {
                     placeholder="Enter Your Name!"
                     onChange={(e) => setName(e.target.value)}
                 />
-                <button onClick={() => rankService.addRank('memory', name, elapsedTime(), Date.now())}> Submit on Rank!</button>
+                <button onClick={() => {
+                    rankService.addRank('memory', name, elapsedTime(), Date.now());
+                    alert('Rank Submitted');
+                    restartGame();
+                }}> Submit on Rank!</button>
                 <button
                     onClick={restartGame}
                 >Restart Game</button>
