@@ -704,5 +704,5 @@ Today I,
 
 ➕ Some Adjusts in games Ranks
 
-**Link to work:** [Day57]()
+**Link to work:** [Day57](https://github.com/murilomotomatsu/100-days-of-code/commit/0f1c48e2568d73933d07137e87e8b3f4daefb296)
 
