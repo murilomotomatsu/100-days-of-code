@@ -712,5 +712,5 @@ Today I,
 
 ➕ Add light bulbs for christmas! 
 
-**Link to work:** [Day58]()
+**Link to work:** [Day58](https://github.com/murilomotomatsu/100-days-of-code/commit/694dd0b468490c16ebaf7c160c28512229f261fd)
 
