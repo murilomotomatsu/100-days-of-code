@@ -706,3 +706,11 @@ Today I,
 
 **Link to work:** [Day57](https://github.com/murilomotomatsu/100-days-of-code/commit/0f1c48e2568d73933d07137e87e8b3f4daefb296)
 
+Day 58 of #100DaysOfCode 
+
+Today I,
+
+➕ Add light bulbs for christmas! 
+
+**Link to work:** [Day58]()
+
