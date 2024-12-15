@@ -469,3 +469,10 @@ Day 58 of #100DaysOfCode 🚀
 Today I,
 
 ➕ Add light bulbs for christmas! 
+
+### R1D59
+Day 59 of #100DaysOfCode 🚀
+
+Today I,
+
+➕ Add Snow for christmas! 
