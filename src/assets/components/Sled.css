@@ -1,0 +1,41 @@
+.sled-container {
+    position: fixed;
+    width: 100px;
+    height: 100px;
+    z-index: 10;
+    transition: top 0.5s ease, left 0.5s ease, transform 0.8s ease;
+}
+
+.sled {
+    width: 100%;
+    height: auto;
+    rotate: -30deg;    
+    filter: brightness(0) saturate(100%) invert(33%) sepia(88%) saturate(7303%) hue-rotate(354deg) brightness(85%) contrast(99%);
+}
+
+.heart-shape {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    rotate: -45deg;
+    animation: pulse 0.7s infinite;
+}
+
+.heart-shape::after,
+.heart-shape::before {
+    content: "";
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    border-radius: 50%;
+}
+
+.heart-shape::after {
+    left: 50px;
+}
+
+.heart-shape::before {
+    top: -50px;
+}
