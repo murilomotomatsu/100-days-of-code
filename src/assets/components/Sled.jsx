@@ -14,8 +14,8 @@ export default function Sled() {
             const progress = window.scrollY / maxScroll;
 
             setPosition({
-                top: window.innerHeight * (1 - progress),
-                left: window.innerWidth * progress,
+                top: Math.min(window.innerHeight * (1 - progress), window.innerHeight * 0.8),
+                left: Math.max(window.innerWidth * progress, 0),
             });
             setHeart(progress >= 1);
         };
@@ -32,8 +32,8 @@ export default function Sled() {
         <div
             className={`sled-container ${heart ? "heart" : ""}`}
             style={
-                heart ? { top: "50%", left: "50%", transform: "translate(-50%, 50%)" } 
-                : {top: `${position.top}px`, left: `${position.left}px`}
+                heart ? { top: "50%", left: "50%", transform: "translate(-50%, 50%)" }
+                    : { top: `${position.top}px`, left: `${position.left}px` }
             }
         >
             {heart ? (
