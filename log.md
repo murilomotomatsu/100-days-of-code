@@ -778,3 +778,11 @@ Today I,
 
 **Link to work:** [Day66](https://github.com/murilomotomatsu/100-days-of-code/commit/8935638d788fe57d92129514bd8df6dc5ccc006f)
 
+Day 67 of #100DaysOfCode 
+
+Today I,
+
+➕ Work on Freelance Project 
+
+**Link to work:** [Day67]()
+
