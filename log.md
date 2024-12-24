@@ -793,5 +793,5 @@ Today I,
 
 ➕ Work on Jetchat Automation
 
-**Link to work:** [Day68]()
+**Link to work:** [Day68](https://github.com/murilomotomatsu/100-days-of-code/commit/0ee772fd069d9a0707aa23fc869def6b25ac23b6)
 
