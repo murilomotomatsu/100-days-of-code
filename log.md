@@ -802,4 +802,4 @@ Today I,
 
 ➕ Merry X-Mas
 
-**Link to work:** [Day69]()
+**Link to work:** [Day69](https://github.com/murilomotomatsu/100-days-of-code/commit/bbaef8cb1678fe5021b67a8fc4fb5f201d39eddd)
