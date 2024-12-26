@@ -795,7 +795,6 @@ Today I,
 
 **Link to work:** [Day68](https://github.com/murilomotomatsu/100-days-of-code/commit/0ee772fd069d9a0707aa23fc869def6b25ac23b6)
 
-
 Day 69 of #100DaysOfCode 
 
 Today I,
@@ -803,3 +802,11 @@ Today I,
 ➕ Merry X-Mas
 
 **Link to work:** [Day69](https://github.com/murilomotomatsu/100-days-of-code/commit/bbaef8cb1678fe5021b67a8fc4fb5f201d39eddd)
+
+Day 70 of #100DaysOfCode 
+
+Today I,
+
+➕ Wrapped up what I started yesterday
+
+**Link to work:** [Day70]()
