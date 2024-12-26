@@ -809,4 +809,4 @@ Today I,
 
 ➕ Wrapped up what I started yesterday
 
-**Link to work:** [Day70]()
+**Link to work:** [Day70](https://github.com/murilomotomatsu/100-days-of-code/commit/fae104975ed0c1bd599139887696a1c168310bca)
