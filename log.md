@@ -817,4 +817,4 @@ Today I,
 
 ➕ Low-Code with Jetchat
 
-**Link to work:** [Day71]()
+**Link to work:** [Day71](https://github.com/murilomotomatsu/100-days-of-code/commit/0ad719a4857470953393608047eef77156e92978)
