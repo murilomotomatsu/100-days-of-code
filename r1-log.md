@@ -574,3 +574,10 @@ Day 71 of #100DaysOfCode 🚀
 Today I,
 
 ➕ Low-Code with Jetchat
+
+### R1D72
+Day 72 of #100DaysOfCode 🚀
+
+Today I,
+
+➕ Front-End freelance project
