@@ -825,4 +825,4 @@ Today I,
 
 ➕ Front-End freelance project
 
-**Link to work:** [Day72]()
+**Link to work:** [Day72](https://github.com/murilomotomatsu/100-days-of-code/commit/d2e053f5be85627570cfd6caa313ed9c3676330c)
