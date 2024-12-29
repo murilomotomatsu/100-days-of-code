@@ -580,4 +580,13 @@ Day 72 of #100DaysOfCode 🚀
 
 Today I,
 
-➕ Front-End freelance project
+➕ Front-End freelance 
+
+### R1D73
+Day 73 of #100DaysOfCode 🚀
+
+Today I,
+
+➕ Logs integrated with spreadsheets.
+➕ Internal controls for Meta Ads campaigns.
+➕ Features focused on metrics.

@@ -826,3 +826,13 @@ Today I,
 ➕ Front-End freelance project
 
 **Link to work:** [Day72](https://github.com/murilomotomatsu/100-days-of-code/commit/d2e053f5be85627570cfd6caa313ed9c3676330c)
+
+Day 73 of #100DaysOfCode 
+
+Today I,
+
+➕ Logs integrated with spreadsheets.
+➕ Internal controls for Meta Ads campaigns.
+➕ Features focused on metrics.
+
+**Link to work:** [Day73]()
