@@ -836,3 +836,11 @@ Today I,
 ➕ Features focused on metrics.
 
 **Link to work:** [Day73](https://github.com/murilomotomatsu/100-days-of-code/commit/a846201b17e8eedde94d2afbedcffdd50f3ca527)
+
+Day 74 of #100DaysOfCode 
+
+Today I,
+
+➕ Freelance Project
+
+**Link to work:** [Day74]()
