@@ -598,3 +598,10 @@ Today I,
 
 ➕ Freelance Project
 
+### R1D75
+Day 75 of #100DaysOfCode 🚀
+
+Today I,
+
+➕ Freelance BugFix local
+
