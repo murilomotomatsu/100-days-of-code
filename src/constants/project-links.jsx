@@ -76,4 +76,5 @@ export const projectLinks = {
     75: 'https://github.com/murilomotomatsu/100-days-of-code/commit/c08c9d12fc1135f19a18e68c81ffa1090e0bc117',
     76: '',
     77: '',
+    78: '',
 };

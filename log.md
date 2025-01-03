@@ -867,4 +867,12 @@ Today I,
 
 ➕ Freelance Adjust
 
-**Link to work:** [Day76]()
+**Link to work:** [Day77]()
+
+Day 78 of #100DaysOfCode 
+
+Today I,
+
+➕ Freelance Project
+
+**Link to work:** [Day77]()

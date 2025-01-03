@@ -613,7 +613,14 @@ Today I,
 ➕ Freelance Project
 
 ### R1D77
-Day 76 of #100DaysOfCode 🚀
+Day 77 of #100DaysOfCode 🚀
+
+Today I,
+
+➕ Freelance Project
+
+### R1D78
+Day 78 of #100DaysOfCode 🚀
 
 Today I,
 
