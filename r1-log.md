@@ -598,7 +598,21 @@ Today I,
 
 ➕ Freelance Project
 
+### R1D75
+Day 76 of #100DaysOfCode 🚀
+
+Today I,
+
+➕ Freelance Project
+
 ### R1D76
+Day 76 of #100DaysOfCode 🚀
+
+Today I,
+
+➕ Freelance Project
+
+### R1D77
 Day 76 of #100DaysOfCode 🚀
 
 Today I,
