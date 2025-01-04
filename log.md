@@ -859,7 +859,7 @@ Today I,
 
 ➕ Freelance Adjust
 
-**Link to work:** [Day76]()
+**Link to work:** [Day76](https://github.com/murilomotomatsu/100-days-of-code/commit/6ea2f49a01c2a484e6d24e598c2bc74c2b413708)
 
 Day 77 of #100DaysOfCode 
 
@@ -867,7 +867,7 @@ Today I,
 
 ➕ Freelance Adjust
 
-**Link to work:** [Day77]()
+**Link to work:** [Day77](https://github.com/murilomotomatsu/100-days-of-code/commit/c9f7beecd7c85e36fd5590ffc26e8c72aec03c25)
 
 Day 78 of #100DaysOfCode 
 
@@ -875,4 +875,12 @@ Today I,
 
 ➕ Freelance Project
 
-**Link to work:** [Day77]()
+**Link to work:** [Day78](https://github.com/murilomotomatsu/100-days-of-code/commit/52e2fc54f5a9b12d92d70b1f1023798818d03b09)
+
+Day 79 of #100DaysOfCode 
+
+Today I,
+
+➕ Freelance Project
+
+**Link to work:** [Day79]()
