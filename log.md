@@ -939,4 +939,12 @@ Today I,
 
 ➕ Freelance Project
 
-**Link to work:** [Day86]()
+**Link to work:** [Day86](https://github.com/murilomotomatsu/100-days-of-code/commit/76a9fcb0178089d05d2332f725218ab88ca92588)
+
+Day 87 of #100DaysOfCode 
+
+Today I,
+
+➕ Freelance Project
+
+**Link to work:** [Day87]()
